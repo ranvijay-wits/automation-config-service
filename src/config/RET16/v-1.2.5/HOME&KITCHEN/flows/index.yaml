@@ -645,6 +645,7 @@ flows:
         owner: BAP
         expect: false
         description: Buyer initiate the product and send the updated fulfillment id
+ 
       - key: on_init_snp
         type: on_init
         unsolicited: false
@@ -666,6 +667,7 @@ flows:
         owner: BAP
         expect: false
         description: Buyer confirms product
+
       - key: on_confirm
         type: on_confirm
         unsolicited: false
