@@ -2189,7 +2189,7 @@ flows:
         owner: BPP
         expect: false
         description: Seller Accepts confirmation
-      - key: on_status_pending
+      - key: on_status_accepted
         type: on_status
         unsolicited: true
         pair: null
@@ -2344,12 +2344,12 @@ flows:
       - key: search
         type: search
         unsolicited: false
-        pair: on_search
+        pair: on_search_catalog_rejection
         owner: BAP
         expect: true
         description: Buyer requests catalog from seller
 
-      - key: on_search
+      - key: on_search_catalog_rejection
         type: on_search
         unsolicited: false
         pair: null
