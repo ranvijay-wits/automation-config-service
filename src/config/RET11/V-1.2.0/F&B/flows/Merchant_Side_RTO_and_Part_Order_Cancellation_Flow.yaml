@@ -256,9 +256,9 @@ steps:
           context:
             domain: ONDC:RET11
             action: select
-            timestamp: 2026-07-02T19:35:25.380Z
+            timestamp: 2026-07-03T11:51:28.558Z
             transaction_id: 70023cc5-3fe9-4b68-9205-aa2ae40f7d96
-            message_id: de357c5c-a5cd-40ad-8d0c-74924ef9a549
+            message_id: c500e5a7-589b-4647-a043-70f86d8f5067
             bap_id: sample-bap-id
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -429,9 +429,9 @@ steps:
           context:
             domain: ONDC:RET11
             action: on_select
-            timestamp: 2026-07-02T19:35:25.441Z
+            timestamp: 2026-07-03T11:51:28.698Z
             transaction_id: 70023cc5-3fe9-4b68-9205-aa2ae40f7d96
-            message_id: de357c5c-a5cd-40ad-8d0c-74924ef9a549
+            message_id: c500e5a7-589b-4647-a043-70f86d8f5067
             bap_id: sample-bap-id
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -508,44 +508,8 @@ steps:
               quote:
                 price:
                   currency: INR
-                  value: "749.20"
+                  value: "445.75"
                 breakup:
-                  - "@ondc/org/item_id": I1
-                    "@ondc/org/item_quantity":
-                      count: 1
-                    title: Farm House Pizza
-                    "@ondc/org/title_type": item
-                    price:
-                      currency: INR
-                      value: "269.00"
-                    item:
-                      parent_item_id: P0
-                      quantity:
-                        available:
-                          count: "99"
-                        maximum:
-                          count: "99"
-                      price:
-                        currency: INR
-                        value: "269.00"
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
-                  - "@ondc/org/item_id": I1
-                    title: Tax
-                    "@ondc/org/title_type": tax
-                    price:
-                      currency: INR
-                      value: "13.45"
-                    item:
-                      parent_item_id: P0
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
                   - "@ondc/org/item_id": C1
                     "@ondc/org/item_quantity":
                       count: 1
@@ -563,7 +527,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "0.00"
+                        value: "0"
                       tags:
                         - code: type
                           list:
@@ -607,7 +571,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "275.00"
+                        value: "275"
                       tags:
                         - code: type
                           list:
@@ -637,11 +601,11 @@ steps:
                   - "@ondc/org/item_id": C14
                     "@ondc/org/item_quantity":
                       count: 1
-                    title: Grilled Mushrooms
+                    title: Grilled Mushroom
                     "@ondc/org/title_type": item
                     price:
                       currency: INR
-                      value: "80.00"
+                      value: "60.00"
                     item:
                       parent_item_id: P0
                       quantity:
@@ -651,7 +615,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "80.00"
+                        value: "60"
                       tags:
                         - code: type
                           list:
@@ -666,7 +630,7 @@ steps:
                     "@ondc/org/title_type": tax
                     price:
                       currency: INR
-                      value: "4.00"
+                      value: "3.00"
                     item:
                       parent_item_id: P0
                       tags:
@@ -928,9 +892,9 @@ steps:
           context:
             domain: ONDC:RET11
             action: init
-            timestamp: 2026-07-02T19:35:25.532Z
+            timestamp: 2026-07-03T11:51:28.879Z
             transaction_id: 70023cc5-3fe9-4b68-9205-aa2ae40f7d96
-            message_id: 6770bacd-1a01-465c-96cb-72bb8b7a867a
+            message_id: a32eb004-71b5-426b-9312-d02a43537478
             bap_id: sample-bap-id
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -1014,8 +978,8 @@ steps:
                   area_code: "400053"
                 email: nobody@nomail.com
                 phone: "9886098860"
-                created_at: 2026-07-02T19:35:25.532Z
-                updated_at: 2026-07-02T19:35:25.532Z
+                created_at: 2026-07-03T11:51:28.879Z
+                updated_at: 2026-07-03T11:51:28.879Z
               fulfillments:
                 - id: F1
                   type: Delivery
@@ -1401,9 +1365,9 @@ steps:
           context:
             domain: ONDC:RET11
             action: on_init
-            timestamp: 2026-07-02T19:35:25.641Z
+            timestamp: 2026-07-03T11:51:29.028Z
             transaction_id: 70023cc5-3fe9-4b68-9205-aa2ae40f7d96
-            message_id: 6770bacd-1a01-465c-96cb-72bb8b7a867a
+            message_id: a32eb004-71b5-426b-9312-d02a43537478
             bap_id: sample-bap-id
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -1503,8 +1467,8 @@ steps:
                   area_code: "400053"
                 email: nobody@nomail.com
                 phone: "9886098860"
-                created_at: 2026-07-02T19:35:25.532Z
-                updated_at: 2026-07-02T19:35:25.532Z
+                created_at: 2026-07-03T11:51:28.879Z
+                updated_at: 2026-07-03T11:51:28.879Z
               fulfillments:
                 - id: F1
                   type: Delivery
@@ -1525,44 +1489,8 @@ steps:
               quote:
                 price:
                   currency: INR
-                  value: "749.20"
+                  value: "445.75"
                 breakup:
-                  - "@ondc/org/item_id": I1
-                    "@ondc/org/item_quantity":
-                      count: 1
-                    title: Farm House Pizza
-                    "@ondc/org/title_type": item
-                    price:
-                      currency: INR
-                      value: "269.00"
-                    item:
-                      parent_item_id: P0
-                      quantity:
-                        available:
-                          count: "99"
-                        maximum:
-                          count: "99"
-                      price:
-                        currency: INR
-                        value: "269.00"
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
-                  - "@ondc/org/item_id": I1
-                    title: Tax
-                    "@ondc/org/title_type": tax
-                    price:
-                      currency: INR
-                      value: "13.45"
-                    item:
-                      parent_item_id: P0
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
                   - "@ondc/org/item_id": C1
                     "@ondc/org/item_quantity":
                       count: 1
@@ -1580,7 +1508,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "0.00"
+                        value: "0"
                       tags:
                         - code: type
                           list:
@@ -1624,7 +1552,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "275.00"
+                        value: "275"
                       tags:
                         - code: type
                           list:
@@ -1654,11 +1582,11 @@ steps:
                   - "@ondc/org/item_id": C14
                     "@ondc/org/item_quantity":
                       count: 1
-                    title: Grilled Mushrooms
+                    title: Grilled Mushroom
                     "@ondc/org/title_type": item
                     price:
                       currency: INR
-                      value: "80.00"
+                      value: "60.00"
                     item:
                       parent_item_id: P0
                       quantity:
@@ -1668,7 +1596,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "80.00"
+                        value: "60"
                       tags:
                         - code: type
                           list:
@@ -1683,7 +1611,7 @@ steps:
                     "@ondc/org/title_type": tax
                     price:
                       currency: INR
-                      value: "4.00"
+                      value: "3.00"
                     item:
                       parent_item_id: P0
                       tags:
@@ -2098,9 +2026,9 @@ steps:
           context:
             domain: ONDC:RET11
             action: confirm
-            timestamp: 2026-07-02T19:35:25.721Z
+            timestamp: 2026-07-03T11:51:29.159Z
             transaction_id: 70023cc5-3fe9-4b68-9205-aa2ae40f7d96
-            message_id: b6b12735-dcc7-403f-9393-9ba612441bd5
+            message_id: 7dcd7651-e70d-46c4-9757-fb9d7f7271e5
             bap_id: sample-bap-id
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -2111,7 +2039,7 @@ steps:
             core_version: 1.2.0
           message:
             order:
-              id: "205343"
+              id: "734728"
               state: Created
               provider:
                 id: P1
@@ -2186,8 +2114,8 @@ steps:
                   area_code: "400053"
                 email: nobody@nomail.com
                 phone: "9886098860"
-                created_at: 2026-07-02T19:35:25.532Z
-                updated_at: 2026-07-02T19:35:25.532Z
+                created_at: 2026-07-03T11:51:28.879Z
+                updated_at: 2026-07-03T11:51:28.879Z
               fulfillments:
                 - id: F1
                   type: Delivery
@@ -2212,44 +2140,8 @@ steps:
               quote:
                 price:
                   currency: INR
-                  value: "749.20"
+                  value: "445.75"
                 breakup:
-                  - "@ondc/org/item_id": I1
-                    "@ondc/org/item_quantity":
-                      count: 1
-                    title: Farm House Pizza
-                    "@ondc/org/title_type": item
-                    price:
-                      currency: INR
-                      value: "269.00"
-                    item:
-                      parent_item_id: P0
-                      quantity:
-                        available:
-                          count: "99"
-                        maximum:
-                          count: "99"
-                      price:
-                        currency: INR
-                        value: "269.00"
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
-                  - "@ondc/org/item_id": I1
-                    title: Tax
-                    "@ondc/org/title_type": tax
-                    price:
-                      currency: INR
-                      value: "13.45"
-                    item:
-                      parent_item_id: P0
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
                   - "@ondc/org/item_id": C1
                     "@ondc/org/item_quantity":
                       count: 1
@@ -2267,7 +2159,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "0.00"
+                        value: "0"
                       tags:
                         - code: type
                           list:
@@ -2311,7 +2203,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "275.00"
+                        value: "275"
                       tags:
                         - code: type
                           list:
@@ -2341,11 +2233,11 @@ steps:
                   - "@ondc/org/item_id": C14
                     "@ondc/org/item_quantity":
                       count: 1
-                    title: Grilled Mushrooms
+                    title: Grilled Mushroom
                     "@ondc/org/title_type": item
                     price:
                       currency: INR
-                      value: "80.00"
+                      value: "60.00"
                     item:
                       parent_item_id: P0
                       quantity:
@@ -2355,7 +2247,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "80.00"
+                        value: "60"
                       tags:
                         - code: type
                           list:
@@ -2370,7 +2262,7 @@ steps:
                     "@ondc/org/title_type": tax
                     price:
                       currency: INR
-                      value: "4.00"
+                      value: "3.00"
                     item:
                       parent_item_id: P0
                       tags:
@@ -2417,7 +2309,7 @@ steps:
                 params:
                   currency: INR
                   transaction_id: "3937"
-                  amount: "749.20"
+                  amount: "445.75"
                 status: NOT-PAID
                 type: ON-ORDER
                 collected_by: BPP
@@ -2462,8 +2354,8 @@ steps:
                       value: https://github.com/ONDC-Official/NP-Static-Terms/buyerNP_BNP/1.0/tc.pdf
                     - code: tax_number
                       value: 12ABCDE3456FGZJ
-              created_at: 2026-07-02T19:35:25.725Z
-              updated_at: 2026-07-02T19:35:25.725Z
+              created_at: 2026-07-03T11:51:29.177Z
+              updated_at: 2026-07-03T11:51:29.177Z
         type: request
         description: The BAP sends a confirm request to the BPP to finalize and commit
           the RTO or partial order cancellation for the F&B transaction.
@@ -3165,9 +3057,9 @@ steps:
           context:
             domain: ONDC:RET11
             action: on_confirm
-            timestamp: 2026-07-02T19:35:25.805Z
+            timestamp: 2026-07-03T11:51:29.269Z
             transaction_id: 70023cc5-3fe9-4b68-9205-aa2ae40f7d96
-            message_id: b6b12735-dcc7-403f-9393-9ba612441bd5
+            message_id: 7dcd7651-e70d-46c4-9757-fb9d7f7271e5
             bap_id: sample-bap-id
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -3178,7 +3070,7 @@ steps:
             core_version: 1.2.0
           message:
             order:
-              id: "205343"
+              id: "734728"
               state: Created
               provider:
                 id: P1
@@ -3253,8 +3145,8 @@ steps:
                   area_code: "400053"
                 email: nobody@nomail.com
                 phone: "9886098860"
-                created_at: 2026-07-02T19:35:25.532Z
-                updated_at: 2026-07-02T19:35:25.532Z
+                created_at: 2026-07-03T11:51:28.879Z
+                updated_at: 2026-07-03T11:51:28.879Z
               fulfillments:
                 - id: F1
                   type: Delivery
@@ -3297,44 +3189,8 @@ steps:
               quote:
                 price:
                   currency: INR
-                  value: "749.20"
+                  value: "445.75"
                 breakup:
-                  - "@ondc/org/item_id": I1
-                    "@ondc/org/item_quantity":
-                      count: 1
-                    title: Farm House Pizza
-                    "@ondc/org/title_type": item
-                    price:
-                      currency: INR
-                      value: "269.00"
-                    item:
-                      parent_item_id: P0
-                      quantity:
-                        available:
-                          count: "99"
-                        maximum:
-                          count: "99"
-                      price:
-                        currency: INR
-                        value: "269.00"
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
-                  - "@ondc/org/item_id": I1
-                    title: Tax
-                    "@ondc/org/title_type": tax
-                    price:
-                      currency: INR
-                      value: "13.45"
-                    item:
-                      parent_item_id: P0
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
                   - "@ondc/org/item_id": C1
                     "@ondc/org/item_quantity":
                       count: 1
@@ -3352,7 +3208,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "0.00"
+                        value: "0"
                       tags:
                         - code: type
                           list:
@@ -3396,7 +3252,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "275.00"
+                        value: "275"
                       tags:
                         - code: type
                           list:
@@ -3426,11 +3282,11 @@ steps:
                   - "@ondc/org/item_id": C14
                     "@ondc/org/item_quantity":
                       count: 1
-                    title: Grilled Mushrooms
+                    title: Grilled Mushroom
                     "@ondc/org/title_type": item
                     price:
                       currency: INR
-                      value: "80.00"
+                      value: "60.00"
                     item:
                       parent_item_id: P0
                       quantity:
@@ -3440,7 +3296,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "80.00"
+                        value: "60"
                       tags:
                         - code: type
                           list:
@@ -3455,7 +3311,7 @@ steps:
                     "@ondc/org/title_type": tax
                     price:
                       currency: INR
-                      value: "4.00"
+                      value: "3.00"
                     item:
                       parent_item_id: P0
                       tags:
@@ -3502,7 +3358,7 @@ steps:
                 params:
                   currency: INR
                   transaction_id: "3937"
-                  amount: "749.20"
+                  amount: "445.75"
                 status: NOT-PAID
                 type: ON-ORDER
                 collected_by: BPP
@@ -3578,8 +3434,8 @@ steps:
                       value: https://github.com/ONDC-Official/protocol-network-extension/discussions/79
                     - code: tax_number
                       value: 12ABCDE3456FGZJ
-              created_at: 2026-07-02T19:35:25.725Z
-              updated_at: 2026-07-02T19:35:25.809Z
+              created_at: 2026-07-03T11:51:29.177Z
+              updated_at: 2026-07-03T11:51:29.284Z
         type: request
         description: The BPP responds to the on_confirm request by providing the final
           confirmation details and updated quote for the RTO or part order
@@ -4245,9 +4101,9 @@ steps:
           context:
             domain: ONDC:RET11
             action: on_update
-            timestamp: 2026-07-02T19:35:27.780Z
+            timestamp: 2026-07-03T11:51:31.600Z
             transaction_id: 70023cc5-3fe9-4b68-9205-aa2ae40f7d96
-            message_id: 18a7aa24-1674-4449-8cca-d7a03457e0e1
+            message_id: 596881b9-8219-4062-8391-25227903b6f0
             bap_id: sample-bap-id
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -4258,7 +4114,7 @@ steps:
             core_version: 1.2.0
           message:
             order:
-              id: "205343"
+              id: "734728"
               state: Created
               provider:
                 id: P1
@@ -4389,8 +4245,8 @@ steps:
                   area_code: "400053"
                 email: nobody@nomail.com
                 phone: "9886098860"
-                created_at: 2026-07-02T19:35:25.532Z
-                updated_at: 2026-07-02T19:35:25.532Z
+                created_at: 2026-07-03T11:51:28.879Z
+                updated_at: 2026-07-03T11:51:28.879Z
               fulfillments:
                 - id: F1
                   type: Delivery
@@ -4442,30 +4298,6 @@ steps:
                           value: "002"
                         - code: initiated_by
                           value: sample-bpp-id
-                    - code: quote_trail
-                      list:
-                        - code: type
-                          value: item
-                        - code: subtype
-                          value: item
-                        - code: id
-                          value: I1
-                        - code: currency
-                          value: INR
-                        - code: value
-                          value: "-269.00"
-                    - code: quote_trail
-                      list:
-                        - code: type
-                          value: tax
-                        - code: subtype
-                          value: item
-                        - code: id
-                          value: I1
-                        - code: currency
-                          value: INR
-                        - code: value
-                          value: "-13.45"
                     - code: quote_trail
                       list:
                         - code: type
@@ -4525,7 +4357,7 @@ steps:
                         - code: currency
                           value: INR
                         - code: value
-                          value: "-80.00"
+                          value: "-60.00"
                     - code: quote_trail
                       list:
                         - code: type
@@ -4537,48 +4369,12 @@ steps:
                         - code: currency
                           value: INR
                         - code: value
-                          value: "-4.00"
+                          value: "-3.00"
               quote:
                 price:
                   currency: INR
                   value: "0.00"
                 breakup:
-                  - "@ondc/org/item_id": I1
-                    "@ondc/org/item_quantity":
-                      count: 0
-                    title: Farm House Pizza
-                    "@ondc/org/title_type": item
-                    price:
-                      currency: INR
-                      value: "0.00"
-                    item:
-                      parent_item_id: P0
-                      quantity:
-                        available:
-                          count: "99"
-                        maximum:
-                          count: "99"
-                      price:
-                        currency: INR
-                        value: "269.00"
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
-                  - "@ondc/org/item_id": I1
-                    title: Tax
-                    "@ondc/org/title_type": tax
-                    price:
-                      currency: INR
-                      value: "0.00"
-                    item:
-                      parent_item_id: P0
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
                   - "@ondc/org/item_id": C1
                     "@ondc/org/item_quantity":
                       count: 0
@@ -4596,7 +4392,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "0.00"
+                        value: "0"
                       tags:
                         - code: type
                           list:
@@ -4640,7 +4436,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "275.00"
+                        value: "275"
                       tags:
                         - code: type
                           list:
@@ -4670,7 +4466,7 @@ steps:
                   - "@ondc/org/item_id": C14
                     "@ondc/org/item_quantity":
                       count: 0
-                    title: Grilled Mushrooms
+                    title: Grilled Mushroom
                     "@ondc/org/title_type": item
                     price:
                       currency: INR
@@ -4684,7 +4480,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "80.00"
+                        value: "60"
                       tags:
                         - code: type
                           list:
@@ -4716,7 +4512,7 @@ steps:
                 params:
                   currency: INR
                   transaction_id: "3937"
-                  amount: "749.20"
+                  amount: "445.75"
                 status: NOT-PAID
                 type: ON-ORDER
                 collected_by: BPP
@@ -4737,7 +4533,7 @@ steps:
                     bank_name: xxxx
                     branch_name: xxxx
               created_at: 2025-01-08T09:30:00.000Z
-              updated_at: 2026-07-02T19:35:27.780Z
+              updated_at: 2026-07-03T11:51:31.600Z
         type: request
         description: The BPP sends an on_update notification to the BAP to provide the
           updated order quote, fulfillments, and item details following a
@@ -4751,7 +4547,7 @@ steps:
       details for the RTO or part cancellation process, including updated return
       fulfillments and delivery instructions.
     mock:
-      generate: LyoqCiAqIEdlbmVyYXRlcyB0aGUgbW9jayBwYXlsb2FkIGZvciBhbiBBUEkgY2FsbCBpbiB0aGUgdHJhbnNhY3Rpb24gZmxvdy4KICogVGhpcyBmdW5jdGlvbiBhbGxvd3MgY3VzdG9taXphdGlvbiBvZiB0aGUgZGVmYXVsdCBwYXlsb2FkIHVzaW5nIHNlc3Npb24gZGF0YQogKiBmcm9tIHByZXZpb3VzIHN0ZXBzIGFuZCB1c2VyIGlucHV0cy4KICogCiAqIEBwYXJhbSB7T2JqZWN0fSBkZWZhdWx0UGF5bG9hZCAtIFRoZSBiYXNlIHBheWxvYWQgb2JqZWN0IHdpdGggY29udGV4dCBhbHJlYWR5IHBvcHVsYXRlZC4KICogQHBhcmFtIHtPYmplY3R9IHNlc3Npb25EYXRhIC0gRGF0YSBjb2xsZWN0ZWQgZnJvbSBwcmV2aW91cyB0cmFuc2FjdGlvbiBzdGVwcy4KICogQHBhcmFtIHtPYmplY3R9IHNlc3Npb25EYXRhLnVzZXJfaW5wdXRzIC0gVXNlci1wcm92aWRlZCBpbnB1dCB2YWx1ZXMgZm9yIHRoaXMgc3RlcC4KICogQHBhcmFtIHsqfSBzZXNzaW9uRGF0YS5ba2V5XSAtIEFueSBzYXZlZCBkYXRhIGZyb20gcHJldmlvdXMgc3RlcHMgKGRlZmluZWQgaW4gc2F2ZURhdGEgY29uZmlnKS4KICogCiAqIEByZXR1cm5zIHtPYmplY3R9IFRoZSBnZW5lcmF0ZWQgcGF5bG9hZCBvYmplY3QgdG8gYmUgc2VudCBpbiB0aGUgQVBJIHJlcXVlc3QuCiAqLwphc3luYyBmdW5jdGlvbiBnZW5lcmF0ZShleGlzdGluZ1BheWxvYWQsIHNlc3Npb25EYXRhKSB7CiAgZXhpc3RpbmdQYXlsb2FkLmNvbnRleHQuY2l0eSA9IHNlc3Npb25EYXRhPy5wYXlsb2FkX2NpdHk/LlswXTsKICBpZiAoc2Vzc2lvbkRhdGEub3JkZXJfaWQpIHsKICAgIGV4aXN0aW5nUGF5bG9hZC5tZXNzYWdlLm9yZGVyLmlkID0gc2Vzc2lvbkRhdGEub3JkZXJfaWRbMF07CiAgfQoKICBjb25zdCBmdWxmaWxsbWVudHMgPSBzZXNzaW9uRGF0YS5mdWxmaWxsbWVudHM7CiAgY29uc29sZS5sb2coImZ1bGZpbGxtZW50cyIsIEpTT04uc3RyaW5naWZ5KGZ1bGZpbGxtZW50cykpCgogIGNvbnN0IHRyYWlsID0gKHNlc3Npb25EYXRhLmZ1bGZpbGxtZW50cyB8fCBbXSkKICAgIC5mbGF0TWFwKGYgPT4gZi50YWdzIHx8IFtdKQogICAgLmZpbHRlcih0YWcgPT4gdGFnLmNvZGUgPT09ICJxdW90ZV90cmFpbCIpOwoKCWNvbnNvbGUubG9nKCJ0cmFpbCIsIEpTT04uc3RyaW5naWZ5KHRyYWlsLCBudWxsLCAyKSk7CgoJY29uc3QgYW1vdW50cyA9IHRyYWlsLmZsYXRNYXAoKHQpID0+IHsKCQlyZXR1cm4gdC5saXN0CgkJCS5maWx0ZXIoKGwpID0+IGwuY29kZSA9PT0gInZhbHVlIikKCQkJLm1hcCgobCkgPT4gewoJCQkJcmV0dXJuIHBhcnNlSW50KGwudmFsdWUpOwoJCQl9KTsKCX0pOwoJY29uc3QgdG90YWxBbW91bnQgPSBhbW91bnRzLnJlZHVjZSgoYWNjLCBjdXJyKSA9PiBhY2MgKyBjdXJyLCAwKTsKCiAgbGV0IHJlZnVuZEFtb3VudCA9ICIiOwogIHJlZnVuZEFtb3VudCA9ICgKICAgIHBhcnNlRmxvYXQoc2Vzc2lvbkRhdGE/Lm9uX2NvbmZpcm1fcXVvdGVbMF0/LnByaWNlPy52YWx1ZSkgLQogICAgcGFyc2VGbG9hdChzZXNzaW9uRGF0YT8ub25fdXBkYXRlX3F1b3RlWzBdPy5wcmljZT8udmFsdWUpCiAgKQogICAgLnRvRml4ZWQoMikKICAgIC50b1N0cmluZygpOwoKICBleGlzdGluZ1BheWxvYWQubWVzc2FnZS5vcmRlci5wYXltZW50WwogICAgIkBvbmRjL29yZy9zZXR0bGVtZW50X2RldGFpbHMiCiAgXVswXS5zZXR0bGVtZW50X2Ftb3VudCA9IGAkey0xICogdG90YWxBbW91bnR9YDsKICBleGlzdGluZ1BheWxvYWQubWVzc2FnZS5vcmRlci5wYXltZW50WwogICAgIkBvbmRjL29yZy9zZXR0bGVtZW50X2RldGFpbHMiCiAgXVswXS5zZXR0bGVtZW50X3RpbWVzdGFtcCA9IGV4aXN0aW5nUGF5bG9hZC5jb250ZXh0LnRpbWVzdGFtcDsKCiAgcmV0dXJuIGV4aXN0aW5nUGF5bG9hZDsKfQ==
+      generate: LyoqCiAqIEdlbmVyYXRlcyB0aGUgbW9jayBwYXlsb2FkIGZvciBhbiBBUEkgY2FsbCBpbiB0aGUgdHJhbnNhY3Rpb24gZmxvdy4KICogVGhpcyBmdW5jdGlvbiBhbGxvd3MgY3VzdG9taXphdGlvbiBvZiB0aGUgZGVmYXVsdCBwYXlsb2FkIHVzaW5nIHNlc3Npb24gZGF0YQogKiBmcm9tIHByZXZpb3VzIHN0ZXBzIGFuZCB1c2VyIGlucHV0cy4KICogCiAqIEBwYXJhbSB7T2JqZWN0fSBkZWZhdWx0UGF5bG9hZCAtIFRoZSBiYXNlIHBheWxvYWQgb2JqZWN0IHdpdGggY29udGV4dCBhbHJlYWR5IHBvcHVsYXRlZC4KICogQHBhcmFtIHtPYmplY3R9IHNlc3Npb25EYXRhIC0gRGF0YSBjb2xsZWN0ZWQgZnJvbSBwcmV2aW91cyB0cmFuc2FjdGlvbiBzdGVwcy4KICogQHBhcmFtIHtPYmplY3R9IHNlc3Npb25EYXRhLnVzZXJfaW5wdXRzIC0gVXNlci1wcm92aWRlZCBpbnB1dCB2YWx1ZXMgZm9yIHRoaXMgc3RlcC4KICogQHBhcmFtIHsqfSBzZXNzaW9uRGF0YS5ba2V5XSAtIEFueSBzYXZlZCBkYXRhIGZyb20gcHJldmlvdXMgc3RlcHMgKGRlZmluZWQgaW4gc2F2ZURhdGEgY29uZmlnKS4KICogCiAqIEByZXR1cm5zIHtPYmplY3R9IFRoZSBnZW5lcmF0ZWQgcGF5bG9hZCBvYmplY3QgdG8gYmUgc2VudCBpbiB0aGUgQVBJIHJlcXVlc3QuCiAqLwphc3luYyBmdW5jdGlvbiBnZW5lcmF0ZShleGlzdGluZ1BheWxvYWQsIHNlc3Npb25EYXRhKSB7CiAgZXhpc3RpbmdQYXlsb2FkLmNvbnRleHQuY2l0eSA9IHNlc3Npb25EYXRhPy5wYXlsb2FkX2NpdHk/LlswXTsKICBpZiAoc2Vzc2lvbkRhdGEub3JkZXJfaWQpIHsKICAgIGV4aXN0aW5nUGF5bG9hZC5tZXNzYWdlLm9yZGVyLmlkID0gc2Vzc2lvbkRhdGEub3JkZXJfaWRbMF07CiAgfQoKICBjb25zdCBmdWxmaWxsbWVudHMgPSBzZXNzaW9uRGF0YS5mdWxmaWxsbWVudHM7CiAgY29uc29sZS5sb2coImZ1bGZpbGxtZW50cyIsIEpTT04uc3RyaW5naWZ5KGZ1bGZpbGxtZW50cykpCgogIGNvbnN0IHRyYWlsID0gKHNlc3Npb25EYXRhLmZ1bGZpbGxtZW50cyB8fCBbXSkKICAgIC5mbGF0TWFwKGYgPT4gZi50YWdzIHx8IFtdKQogICAgLmZpbHRlcih0YWcgPT4gdGFnLmNvZGUgPT09ICJxdW90ZV90cmFpbCIpOwoKICBjb25zb2xlLmxvZygidHJhaWwiLCBKU09OLnN0cmluZ2lmeSh0cmFpbCwgbnVsbCwgMikpOwoKICBjb25zdCBhbW91bnRzID0gdHJhaWwuZmxhdE1hcCgodCkgPT4gewogICAgcmV0dXJuIHQubGlzdAogICAgICAuZmlsdGVyKChsKSA9PiBsLmNvZGUgPT09ICJ2YWx1ZSIpCiAgICAgIC5tYXAoKGwpID0+IHBhcnNlRmxvYXQobC52YWx1ZSkpOwogIH0pOwoKICBjb25zdCB0b3RhbEFtb3VudCA9IGFtb3VudHMucmVkdWNlKChhY2MsIGN1cnIpID0+IGFjYyArIGN1cnIsIDApOwoKICBleGlzdGluZ1BheWxvYWQubWVzc2FnZS5vcmRlci5wYXltZW50WwogICAgIkBvbmRjL29yZy9zZXR0bGVtZW50X2RldGFpbHMiCiAgXVswXS5zZXR0bGVtZW50X2Ftb3VudCA9ICgtdG90YWxBbW91bnQpLnRvRml4ZWQoMik7CgogIC8vIGxldCByZWZ1bmRBbW91bnQgPSAiIjsKICAvLyByZWZ1bmRBbW91bnQgPSAoCiAgLy8gICBwYXJzZUZsb2F0KHNlc3Npb25EYXRhPy5vbl9jb25maXJtX3F1b3RlWzBdPy5wcmljZT8udmFsdWUpIC0KICAvLyAgIHBhcnNlRmxvYXQoc2Vzc2lvbkRhdGE/Lm9uX3VwZGF0ZV9xdW90ZVswXT8ucHJpY2U/LnZhbHVlKQogIC8vICkKICAvLyAgIC50b0ZpeGVkKDIpCiAgLy8gICAudG9TdHJpbmcoKTsKCiAgZXhpc3RpbmdQYXlsb2FkLm1lc3NhZ2Uub3JkZXIucGF5bWVudFsKICAgICJAb25kYy9vcmcvc2V0dGxlbWVudF9kZXRhaWxzIgogIF1bMF0uc2V0dGxlbWVudF90aW1lc3RhbXAgPSBleGlzdGluZ1BheWxvYWQuY29udGV4dC50aW1lc3RhbXA7CgogIHJldHVybiBleGlzdGluZ1BheWxvYWQ7Cn0=
       validate: LyoqCiAqIFZhbGlkYXRlcyB0aGUgaW5jb21pbmcgcmVxdWVzdCBwYXlsb2FkIGZvciBhbiBBUEkgY2FsbCBpbiB0aGUgdHJhbnNhY3Rpb24gZmxvdy4KICogCiAqIEBwYXJhbSB7T2JqZWN0fSB0YXJnZXRQYXlsb2FkIC0gVGhlIGluY29taW5nIHJlcXVlc3QgcGF5bG9hZCB0byB2YWxpZGF0ZS4KICogQHBhcmFtIHtPYmplY3R9IHNlc3Npb25EYXRhIC0gRGF0YSBjb2xsZWN0ZWQgZnJvbSBwcmV2aW91cyB0cmFuc2FjdGlvbiBzdGVwcy4KICogCiAqIEByZXR1cm5zIHtPYmplY3R9IHsgdmFsaWQ6IGJvb2xlYW4sIGNvZGU6IG51bWJlciwgZGVzY3JpcHRpb246IHN0cmluZyB9CiAqLwpmdW5jdGlvbiB2YWxpZGF0ZSh0YXJnZXRQYXlsb2FkLCBzZXNzaW9uRGF0YSkgewogIHJldHVybiB7IHZhbGlkOiB0cnVlLCBjb2RlOiAyMDAsIGRlc2NyaXB0aW9uOiAiVmFsaWQgcmVxdWVzdCIgfTsKfQ==
       requirements: LyoqCiAqIENoZWNrcyBpZiB0aGUgcmVxdWlyZW1lbnRzIGZvciBwcm9jZWVkaW5nIHdpdGggdGhlIEFQSSBjYWxsIGFyZSBtZXQuCiAqIAogKiBAcGFyYW0ge09iamVjdH0gc2Vzc2lvbkRhdGEgLSBEYXRhIGNvbGxlY3RlZCBmcm9tIHByZXZpb3VzIHRyYW5zYWN0aW9uIHN0ZXBzLgogKiAKICogQHJldHVybnMge09iamVjdH0geyB2YWxpZDogYm9vbGVhbiwgY29kZTogbnVtYmVyLCBkZXNjcmlwdGlvbjogc3RyaW5nIH0KICovCmZ1bmN0aW9uIG1lZXRzUmVxdWlyZW1lbnRzKHNlc3Npb25EYXRhKSB7CiAgcmV0dXJuIHsgdmFsaWQ6IHRydWUsIGNvZGU6IDIwMCwgZGVzY3JpcHRpb246ICJSZXF1aXJlbWVudHMgbWV0IiB9Owp9
       defaultPayload:
@@ -4802,9 +4598,9 @@ steps:
           context:
             domain: ONDC:RET11
             action: update
-            timestamp: 2026-07-02T19:35:27.846Z
+            timestamp: 2026-07-03T11:51:31.708Z
             transaction_id: 70023cc5-3fe9-4b68-9205-aa2ae40f7d96
-            message_id: a8d40712-2f88-4c05-a2ca-c6cb381c8b2f
+            message_id: dd7925f9-b952-4edd-87cd-b6f42e16dbd7
             bap_id: sample-bap-id
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -4816,7 +4612,7 @@ steps:
           message:
             update_target: payment
             order:
-              id: "205343"
+              id: "734728"
               fulfillments:
                 - id: C1
                   type: Cancel
@@ -4825,8 +4621,8 @@ steps:
                   - settlement_counterparty: buyer
                     settlement_phase: refund
                     settlement_type: upi
-                    settlement_amount: "654"
-                    settlement_timestamp: 2026-07-02T19:35:27.846Z
+                    settlement_amount: "351.75"
+                    settlement_timestamp: 2026-07-03T11:51:31.708Z
         type: request
         description: The BAP sends an update request to the BPP to modify the order
           details for the RTO or part cancellation process, including updated
@@ -5479,9 +5275,9 @@ steps:
           context:
             domain: ONDC:RET11
             action: on_status
-            timestamp: 2026-07-02T19:35:27.934Z
+            timestamp: 2026-07-03T11:51:31.892Z
             transaction_id: 70023cc5-3fe9-4b68-9205-aa2ae40f7d96
-            message_id: 5b8c7b38-9c50-4cdb-acd0-6bb002f58a01
+            message_id: 410193c2-114b-42f0-a401-f24e8a9eaa18
             bap_id: sample-bap-id
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -5492,7 +5288,7 @@ steps:
             core_version: 1.2.0
           message:
             order:
-              id: "205343"
+              id: "734728"
               state: Accepted
               provider:
                 id: P1
@@ -5623,8 +5419,8 @@ steps:
                   area_code: "400053"
                 email: nobody@nomail.com
                 phone: "9886098860"
-                created_at: 2026-07-02T19:35:25.532Z
-                updated_at: 2026-07-02T19:35:25.532Z
+                created_at: 2026-07-03T11:51:28.879Z
+                updated_at: 2026-07-03T11:51:28.879Z
               fulfillments:
                 - id: F1
                   type: Delivery
@@ -5651,9 +5447,9 @@ steps:
                       email: nobody@nomail.com
                     time:
                       range:
-                        start: 2026-07-02T19:45:27.939Z
-                        end: 2026-07-02T19:55:27.939Z
-                      timestamp: 2026-07-02T19:35:27.939Z
+                        start: 2026-07-03T12:01:31.913Z
+                        end: 2026-07-03T12:11:31.913Z
+                      timestamp: 2026-07-03T11:51:31.913Z
                   end:
                     contact:
                       phone: "9886098860"
@@ -5671,9 +5467,9 @@ steps:
                         area_code: "400053"
                     time:
                       range:
-                        start: 2026-07-02T19:55:27.939Z
-                        end: 2026-07-02T20:45:27.939Z
-                      timestamp: 2026-07-02T19:35:27.939Z
+                        start: 2026-07-03T12:11:31.913Z
+                        end: 2026-07-03T13:01:31.913Z
+                      timestamp: 2026-07-03T11:51:31.913Z
                   tags:
                     - code: routing
                       list:
@@ -5699,30 +5495,6 @@ steps:
                           value: "002"
                         - code: initiated_by
                           value: sample-bpp-id
-                    - code: quote_trail
-                      list:
-                        - code: type
-                          value: item
-                        - code: subtype
-                          value: item
-                        - code: id
-                          value: I1
-                        - code: currency
-                          value: INR
-                        - code: value
-                          value: "-269.00"
-                    - code: quote_trail
-                      list:
-                        - code: type
-                          value: tax
-                        - code: subtype
-                          value: item
-                        - code: id
-                          value: I1
-                        - code: currency
-                          value: INR
-                        - code: value
-                          value: "-13.45"
                     - code: quote_trail
                       list:
                         - code: type
@@ -5782,7 +5554,7 @@ steps:
                         - code: currency
                           value: INR
                         - code: value
-                          value: "-80.00"
+                          value: "-60.00"
                     - code: quote_trail
                       list:
                         - code: type
@@ -5794,48 +5566,12 @@ steps:
                         - code: currency
                           value: INR
                         - code: value
-                          value: "-4.00"
+                          value: "-3.00"
               quote:
                 price:
                   currency: INR
-                  value: "749.20"
+                  value: "445.75"
                 breakup:
-                  - "@ondc/org/item_id": I1
-                    "@ondc/org/item_quantity":
-                      count: 1
-                    title: Farm House Pizza
-                    "@ondc/org/title_type": item
-                    price:
-                      currency: INR
-                      value: "269.00"
-                    item:
-                      parent_item_id: P0
-                      quantity:
-                        available:
-                          count: "99"
-                        maximum:
-                          count: "99"
-                      price:
-                        currency: INR
-                        value: "269.00"
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
-                  - "@ondc/org/item_id": I1
-                    title: Tax
-                    "@ondc/org/title_type": tax
-                    price:
-                      currency: INR
-                      value: "13.45"
-                    item:
-                      parent_item_id: P0
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
                   - "@ondc/org/item_id": C1
                     "@ondc/org/item_quantity":
                       count: 1
@@ -5853,7 +5589,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "0.00"
+                        value: "0"
                       tags:
                         - code: type
                           list:
@@ -5897,7 +5633,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "275.00"
+                        value: "275"
                       tags:
                         - code: type
                           list:
@@ -5927,11 +5663,11 @@ steps:
                   - "@ondc/org/item_id": C14
                     "@ondc/org/item_quantity":
                       count: 1
-                    title: Grilled Mushrooms
+                    title: Grilled Mushroom
                     "@ondc/org/title_type": item
                     price:
                       currency: INR
-                      value: "80.00"
+                      value: "60.00"
                     item:
                       parent_item_id: P0
                       quantity:
@@ -5941,7 +5677,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "80.00"
+                        value: "60"
                       tags:
                         - code: type
                           list:
@@ -5956,7 +5692,7 @@ steps:
                     "@ondc/org/title_type": tax
                     price:
                       currency: INR
-                      value: "4.00"
+                      value: "3.00"
                     item:
                       parent_item_id: P0
                       tags:
@@ -6003,7 +5739,7 @@ steps:
                 params:
                   currency: INR
                   transaction_id: "3937"
-                  amount: "749.20"
+                  amount: "445.75"
                 status: NOT-PAID
                 type: ON-ORDER
                 collected_by: BPP
@@ -6023,8 +5759,8 @@ steps:
                     beneficiary_name: xxxx
                     bank_name: xxxx
                     branch_name: xxxx
-              created_at: 2026-07-02T19:35:25.725Z
-              updated_at: 2026-07-02T19:35:27.939Z
+              created_at: 2026-07-03T11:51:29.177Z
+              updated_at: 2026-07-03T11:51:31.912Z
         type: request
         description: The BPP sends an unsolicited on_status update to the BAP to
           communicate the current state of the order and the status of its
@@ -6677,9 +6413,9 @@ steps:
           context:
             domain: ONDC:RET11
             action: on_status
-            timestamp: 2026-07-02T19:35:28.037Z
+            timestamp: 2026-07-03T11:51:32.062Z
             transaction_id: 70023cc5-3fe9-4b68-9205-aa2ae40f7d96
-            message_id: 3f5a5cee-56d8-4cfc-bb8e-618b933c36bf
+            message_id: 712b13bf-e960-4b76-8f4e-d47d845faf4b
             bap_id: sample-bap-id
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -6690,7 +6426,7 @@ steps:
             core_version: 1.2.0
           message:
             order:
-              id: "205343"
+              id: "734728"
               state: In-progress
               provider:
                 id: P1
@@ -6821,8 +6557,8 @@ steps:
                   area_code: "400053"
                 email: nobody@nomail.com
                 phone: "9886098860"
-                created_at: 2026-07-02T19:35:25.532Z
-                updated_at: 2026-07-02T19:35:25.532Z
+                created_at: 2026-07-03T11:51:28.879Z
+                updated_at: 2026-07-03T11:51:28.879Z
               fulfillments:
                 - id: F1
                   type: Delivery
@@ -6849,9 +6585,9 @@ steps:
                       email: nobody@nomail.com
                     time:
                       range:
-                        start: 2026-07-02T19:45:27.939Z
-                        end: 2026-07-02T19:55:27.939Z
-                      timestamp: 2026-07-02T19:35:27.939Z
+                        start: 2026-07-03T12:01:31.913Z
+                        end: 2026-07-03T12:11:31.913Z
+                      timestamp: 2026-07-03T11:51:31.913Z
                   end:
                     contact:
                       phone: "9886098860"
@@ -6869,9 +6605,9 @@ steps:
                         area_code: "400053"
                     time:
                       range:
-                        start: 2026-07-02T19:55:27.939Z
-                        end: 2026-07-02T20:45:27.939Z
-                      timestamp: 2026-07-02T19:35:27.939Z
+                        start: 2026-07-03T12:11:31.913Z
+                        end: 2026-07-03T13:01:31.913Z
+                      timestamp: 2026-07-03T11:51:31.913Z
                   tags:
                     - code: routing
                       list:
@@ -6897,30 +6633,6 @@ steps:
                           value: "002"
                         - code: initiated_by
                           value: sample-bpp-id
-                    - code: quote_trail
-                      list:
-                        - code: type
-                          value: item
-                        - code: subtype
-                          value: item
-                        - code: id
-                          value: I1
-                        - code: currency
-                          value: INR
-                        - code: value
-                          value: "-269.00"
-                    - code: quote_trail
-                      list:
-                        - code: type
-                          value: tax
-                        - code: subtype
-                          value: item
-                        - code: id
-                          value: I1
-                        - code: currency
-                          value: INR
-                        - code: value
-                          value: "-13.45"
                     - code: quote_trail
                       list:
                         - code: type
@@ -6980,7 +6692,7 @@ steps:
                         - code: currency
                           value: INR
                         - code: value
-                          value: "-80.00"
+                          value: "-60.00"
                     - code: quote_trail
                       list:
                         - code: type
@@ -6992,48 +6704,12 @@ steps:
                         - code: currency
                           value: INR
                         - code: value
-                          value: "-4.00"
+                          value: "-3.00"
               quote:
                 price:
                   currency: INR
-                  value: "749.20"
+                  value: "445.75"
                 breakup:
-                  - "@ondc/org/item_id": I1
-                    "@ondc/org/item_quantity":
-                      count: 1
-                    title: Farm House Pizza
-                    "@ondc/org/title_type": item
-                    price:
-                      currency: INR
-                      value: "269.00"
-                    item:
-                      parent_item_id: P0
-                      quantity:
-                        available:
-                          count: "99"
-                        maximum:
-                          count: "99"
-                      price:
-                        currency: INR
-                        value: "269.00"
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
-                  - "@ondc/org/item_id": I1
-                    title: Tax
-                    "@ondc/org/title_type": tax
-                    price:
-                      currency: INR
-                      value: "13.45"
-                    item:
-                      parent_item_id: P0
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
                   - "@ondc/org/item_id": C1
                     "@ondc/org/item_quantity":
                       count: 1
@@ -7051,7 +6727,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "0.00"
+                        value: "0"
                       tags:
                         - code: type
                           list:
@@ -7095,7 +6771,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "275.00"
+                        value: "275"
                       tags:
                         - code: type
                           list:
@@ -7125,11 +6801,11 @@ steps:
                   - "@ondc/org/item_id": C14
                     "@ondc/org/item_quantity":
                       count: 1
-                    title: Grilled Mushrooms
+                    title: Grilled Mushroom
                     "@ondc/org/title_type": item
                     price:
                       currency: INR
-                      value: "80.00"
+                      value: "60.00"
                     item:
                       parent_item_id: P0
                       quantity:
@@ -7139,7 +6815,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "80.00"
+                        value: "60"
                       tags:
                         - code: type
                           list:
@@ -7154,7 +6830,7 @@ steps:
                     "@ondc/org/title_type": tax
                     price:
                       currency: INR
-                      value: "4.00"
+                      value: "3.00"
                     item:
                       parent_item_id: P0
                       tags:
@@ -7201,7 +6877,7 @@ steps:
                 params:
                   currency: INR
                   transaction_id: "3937"
-                  amount: "749.20"
+                  amount: "445.75"
                 status: NOT-PAID
                 type: ON-ORDER
                 collected_by: BPP
@@ -7221,8 +6897,8 @@ steps:
                     beneficiary_name: xxxx
                     bank_name: xxxx
                     branch_name: xxxx
-              created_at: 2026-07-02T19:35:25.725Z
-              updated_at: 2026-07-02T19:35:28.042Z
+              created_at: 2026-07-03T11:51:29.177Z
+              updated_at: 2026-07-03T11:51:32.084Z
         type: request
         description: The BPP sends an unsolicited on_status notification to the BAP to
           provide the latest order state and fulfillment updates for the return
@@ -7875,9 +7551,9 @@ steps:
           context:
             domain: ONDC:RET11
             action: on_status
-            timestamp: 2026-07-02T19:35:28.126Z
+            timestamp: 2026-07-03T11:51:32.199Z
             transaction_id: 70023cc5-3fe9-4b68-9205-aa2ae40f7d96
-            message_id: 084412d3-c827-404f-bf15-6e0af50dc418
+            message_id: 739fcf48-c64e-4968-833a-8476ad7cd803
             bap_id: sample-bap-id
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -7888,7 +7564,7 @@ steps:
             core_version: 1.2.0
           message:
             order:
-              id: "205343"
+              id: "734728"
               state: In-progress
               provider:
                 id: P1
@@ -8019,8 +7695,8 @@ steps:
                   area_code: "400053"
                 email: nobody@nomail.com
                 phone: "9886098860"
-                created_at: 2026-07-02T19:35:25.532Z
-                updated_at: 2026-07-02T19:35:25.532Z
+                created_at: 2026-07-03T11:51:28.879Z
+                updated_at: 2026-07-03T11:51:28.879Z
               fulfillments:
                 - id: F1
                   type: Delivery
@@ -8047,9 +7723,9 @@ steps:
                       email: nobody@nomail.com
                     time:
                       range:
-                        start: 2026-07-02T19:45:27.939Z
-                        end: 2026-07-02T19:55:27.939Z
-                      timestamp: 2026-07-02T19:35:27.939Z
+                        start: 2026-07-03T12:01:31.913Z
+                        end: 2026-07-03T12:11:31.913Z
+                      timestamp: 2026-07-03T11:51:31.913Z
                   end:
                     contact:
                       phone: "9886098860"
@@ -8067,9 +7743,9 @@ steps:
                         area_code: "400053"
                     time:
                       range:
-                        start: 2026-07-02T19:55:27.939Z
-                        end: 2026-07-02T20:45:27.939Z
-                      timestamp: 2026-07-02T19:35:27.939Z
+                        start: 2026-07-03T12:11:31.913Z
+                        end: 2026-07-03T13:01:31.913Z
+                      timestamp: 2026-07-03T11:51:31.913Z
                   tags:
                     - code: routing
                       list:
@@ -8100,30 +7776,6 @@ steps:
                           value: "002"
                         - code: initiated_by
                           value: sample-bpp-id
-                    - code: quote_trail
-                      list:
-                        - code: type
-                          value: item
-                        - code: subtype
-                          value: item
-                        - code: id
-                          value: I1
-                        - code: currency
-                          value: INR
-                        - code: value
-                          value: "-269.00"
-                    - code: quote_trail
-                      list:
-                        - code: type
-                          value: tax
-                        - code: subtype
-                          value: item
-                        - code: id
-                          value: I1
-                        - code: currency
-                          value: INR
-                        - code: value
-                          value: "-13.45"
                     - code: quote_trail
                       list:
                         - code: type
@@ -8183,7 +7835,7 @@ steps:
                         - code: currency
                           value: INR
                         - code: value
-                          value: "-80.00"
+                          value: "-60.00"
                     - code: quote_trail
                       list:
                         - code: type
@@ -8195,48 +7847,12 @@ steps:
                         - code: currency
                           value: INR
                         - code: value
-                          value: "-4.00"
+                          value: "-3.00"
               quote:
                 price:
                   currency: INR
-                  value: "749.20"
+                  value: "445.75"
                 breakup:
-                  - "@ondc/org/item_id": I1
-                    "@ondc/org/item_quantity":
-                      count: 1
-                    title: Farm House Pizza
-                    "@ondc/org/title_type": item
-                    price:
-                      currency: INR
-                      value: "269.00"
-                    item:
-                      parent_item_id: P0
-                      quantity:
-                        available:
-                          count: "99"
-                        maximum:
-                          count: "99"
-                      price:
-                        currency: INR
-                        value: "269.00"
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
-                  - "@ondc/org/item_id": I1
-                    title: Tax
-                    "@ondc/org/title_type": tax
-                    price:
-                      currency: INR
-                      value: "13.45"
-                    item:
-                      parent_item_id: P0
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
                   - "@ondc/org/item_id": C1
                     "@ondc/org/item_quantity":
                       count: 1
@@ -8254,7 +7870,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "0.00"
+                        value: "0"
                       tags:
                         - code: type
                           list:
@@ -8298,7 +7914,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "275.00"
+                        value: "275"
                       tags:
                         - code: type
                           list:
@@ -8328,11 +7944,11 @@ steps:
                   - "@ondc/org/item_id": C14
                     "@ondc/org/item_quantity":
                       count: 1
-                    title: Grilled Mushrooms
+                    title: Grilled Mushroom
                     "@ondc/org/title_type": item
                     price:
                       currency: INR
-                      value: "80.00"
+                      value: "60.00"
                     item:
                       parent_item_id: P0
                       quantity:
@@ -8342,7 +7958,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "80.00"
+                        value: "60"
                       tags:
                         - code: type
                           list:
@@ -8357,7 +7973,7 @@ steps:
                     "@ondc/org/title_type": tax
                     price:
                       currency: INR
-                      value: "4.00"
+                      value: "3.00"
                     item:
                       parent_item_id: P0
                       tags:
@@ -8404,7 +8020,7 @@ steps:
                 params:
                   currency: INR
                   transaction_id: "3937"
-                  amount: "749.20"
+                  amount: "445.75"
                 status: NOT-PAID
                 type: ON-ORDER
                 collected_by: BPP
@@ -8424,8 +8040,8 @@ steps:
                     beneficiary_name: xxxx
                     bank_name: xxxx
                     branch_name: xxxx
-              created_at: 2026-07-02T19:35:25.725Z
-              updated_at: 2026-07-02T19:35:28.131Z
+              created_at: 2026-07-03T11:51:29.177Z
+              updated_at: 2026-07-03T11:51:32.222Z
         type: request
         description: The BPP sends an unsolicited on_status update to notify the BAP of
           the current order state and the latest fulfillment status for the RTO
@@ -9076,9 +8692,9 @@ steps:
           context:
             domain: ONDC:RET11
             action: on_status
-            timestamp: 2026-07-02T19:35:28.211Z
+            timestamp: 2026-07-03T11:51:32.337Z
             transaction_id: 70023cc5-3fe9-4b68-9205-aa2ae40f7d96
-            message_id: f3609b69-834c-4d66-977c-656d9f5acdcf
+            message_id: 6904e46d-79e2-4f6d-aba5-670e165a4210
             bap_id: sample-bap-id
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -9089,7 +8705,7 @@ steps:
             core_version: 1.2.0
           message:
             order:
-              id: "205343"
+              id: "734728"
               state: In-progress
               provider:
                 id: P1
@@ -9220,8 +8836,8 @@ steps:
                   area_code: "400053"
                 email: nobody@nomail.com
                 phone: "9886098860"
-                created_at: 2026-07-02T19:35:25.532Z
-                updated_at: 2026-07-02T19:35:25.532Z
+                created_at: 2026-07-03T11:51:28.879Z
+                updated_at: 2026-07-03T11:51:28.879Z
               fulfillments:
                 - id: F1
                   type: Delivery
@@ -9248,9 +8864,9 @@ steps:
                       email: nobody@nomail.com
                     time:
                       range:
-                        start: 2026-07-02T19:45:27.939Z
-                        end: 2026-07-02T19:55:27.939Z
-                      timestamp: 2026-07-02T19:35:28.216Z
+                        start: 2026-07-03T12:01:31.913Z
+                        end: 2026-07-03T12:11:31.913Z
+                      timestamp: 2026-07-03T11:51:32.352Z
                   end:
                     contact:
                       phone: "9886098860"
@@ -9268,9 +8884,9 @@ steps:
                         area_code: "400053"
                     time:
                       range:
-                        start: 2026-07-02T19:55:27.939Z
-                        end: 2026-07-02T20:45:27.939Z
-                      timestamp: 2026-07-02T19:35:27.939Z
+                        start: 2026-07-03T12:11:31.913Z
+                        end: 2026-07-03T13:01:31.913Z
+                      timestamp: 2026-07-03T11:51:31.913Z
                   tags:
                     - code: routing
                       list:
@@ -9301,30 +8917,6 @@ steps:
                           value: "002"
                         - code: initiated_by
                           value: sample-bpp-id
-                    - code: quote_trail
-                      list:
-                        - code: type
-                          value: item
-                        - code: subtype
-                          value: item
-                        - code: id
-                          value: I1
-                        - code: currency
-                          value: INR
-                        - code: value
-                          value: "-269.00"
-                    - code: quote_trail
-                      list:
-                        - code: type
-                          value: tax
-                        - code: subtype
-                          value: item
-                        - code: id
-                          value: I1
-                        - code: currency
-                          value: INR
-                        - code: value
-                          value: "-13.45"
                     - code: quote_trail
                       list:
                         - code: type
@@ -9384,7 +8976,7 @@ steps:
                         - code: currency
                           value: INR
                         - code: value
-                          value: "-80.00"
+                          value: "-60.00"
                     - code: quote_trail
                       list:
                         - code: type
@@ -9396,48 +8988,12 @@ steps:
                         - code: currency
                           value: INR
                         - code: value
-                          value: "-4.00"
+                          value: "-3.00"
               quote:
                 price:
                   currency: INR
-                  value: "749.20"
+                  value: "445.75"
                 breakup:
-                  - "@ondc/org/item_id": I1
-                    "@ondc/org/item_quantity":
-                      count: 1
-                    title: Farm House Pizza
-                    "@ondc/org/title_type": item
-                    price:
-                      currency: INR
-                      value: "269.00"
-                    item:
-                      parent_item_id: P0
-                      quantity:
-                        available:
-                          count: "99"
-                        maximum:
-                          count: "99"
-                      price:
-                        currency: INR
-                        value: "269.00"
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
-                  - "@ondc/org/item_id": I1
-                    title: Tax
-                    "@ondc/org/title_type": tax
-                    price:
-                      currency: INR
-                      value: "13.45"
-                    item:
-                      parent_item_id: P0
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
                   - "@ondc/org/item_id": C1
                     "@ondc/org/item_quantity":
                       count: 1
@@ -9455,7 +9011,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "0.00"
+                        value: "0"
                       tags:
                         - code: type
                           list:
@@ -9499,7 +9055,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "275.00"
+                        value: "275"
                       tags:
                         - code: type
                           list:
@@ -9529,11 +9085,11 @@ steps:
                   - "@ondc/org/item_id": C14
                     "@ondc/org/item_quantity":
                       count: 1
-                    title: Grilled Mushrooms
+                    title: Grilled Mushroom
                     "@ondc/org/title_type": item
                     price:
                       currency: INR
-                      value: "80.00"
+                      value: "60.00"
                     item:
                       parent_item_id: P0
                       quantity:
@@ -9543,7 +9099,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "80.00"
+                        value: "60"
                       tags:
                         - code: type
                           list:
@@ -9558,7 +9114,7 @@ steps:
                     "@ondc/org/title_type": tax
                     price:
                       currency: INR
-                      value: "4.00"
+                      value: "3.00"
                     item:
                       parent_item_id: P0
                       tags:
@@ -9605,7 +9161,7 @@ steps:
                 params:
                   currency: INR
                   transaction_id: "3937"
-                  amount: "749.20"
+                  amount: "445.75"
                 status: NOT-PAID
                 type: ON-ORDER
                 collected_by: BPP
@@ -9625,8 +9181,8 @@ steps:
                     beneficiary_name: xxxx
                     bank_name: xxxx
                     branch_name: xxxx
-              created_at: 2026-07-02T19:35:25.725Z
-              updated_at: 2026-07-02T19:35:28.216Z
+              created_at: 2026-07-03T11:51:29.177Z
+              updated_at: 2026-07-03T11:51:32.351Z
         type: request
         description: Status updates - order picked up
   - api: on_status
@@ -9816,9 +9372,9 @@ steps:
           context:
             domain: ONDC:RET11
             action: on_status
-            timestamp: 2026-07-02T19:35:28.278Z
+            timestamp: 2026-07-03T11:51:32.461Z
             transaction_id: 70023cc5-3fe9-4b68-9205-aa2ae40f7d96
-            message_id: 0ca5e12f-e600-4f4f-9a1e-cdc8c9e670f0
+            message_id: 3fba07f0-ad15-4e64-9125-ef732916f2bd
             bap_id: sample-bap-id
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -9829,7 +9385,7 @@ steps:
             core_version: 1.2.0
           message:
             order:
-              id: "205343"
+              id: "734728"
               state: In-progress
               provider:
                 id: P1
@@ -9960,8 +9516,8 @@ steps:
                   area_code: "400053"
                 email: nobody@nomail.com
                 phone: "9886098860"
-                created_at: 2026-07-02T19:35:25.532Z
-                updated_at: 2026-07-02T19:35:25.532Z
+                created_at: 2026-07-03T11:51:28.879Z
+                updated_at: 2026-07-03T11:51:28.879Z
               fulfillments:
                 - id: F1
                   type: Delivery
@@ -9988,9 +9544,9 @@ steps:
                       email: nobody@nomail.com
                     time:
                       range:
-                        start: 2026-07-02T19:45:27.939Z
-                        end: 2026-07-02T19:55:27.939Z
-                      timestamp: 2026-07-02T19:35:28.284Z
+                        start: 2026-07-03T12:01:31.913Z
+                        end: 2026-07-03T12:11:31.913Z
+                      timestamp: 2026-07-03T11:51:32.475Z
                   end:
                     contact:
                       phone: "9886098860"
@@ -10008,9 +9564,9 @@ steps:
                         area_code: "400053"
                     time:
                       range:
-                        start: 2026-07-02T19:55:27.939Z
-                        end: 2026-07-02T20:45:27.939Z
-                      timestamp: 2026-07-02T19:35:27.939Z
+                        start: 2026-07-03T12:11:31.913Z
+                        end: 2026-07-03T13:01:31.913Z
+                      timestamp: 2026-07-03T11:51:31.913Z
                   tags:
                     - code: routing
                       list:
@@ -10041,30 +9597,6 @@ steps:
                           value: "002"
                         - code: initiated_by
                           value: sample-bpp-id
-                    - code: quote_trail
-                      list:
-                        - code: type
-                          value: item
-                        - code: subtype
-                          value: item
-                        - code: id
-                          value: I1
-                        - code: currency
-                          value: INR
-                        - code: value
-                          value: "-269.00"
-                    - code: quote_trail
-                      list:
-                        - code: type
-                          value: tax
-                        - code: subtype
-                          value: item
-                        - code: id
-                          value: I1
-                        - code: currency
-                          value: INR
-                        - code: value
-                          value: "-13.45"
                     - code: quote_trail
                       list:
                         - code: type
@@ -10124,7 +9656,7 @@ steps:
                         - code: currency
                           value: INR
                         - code: value
-                          value: "-80.00"
+                          value: "-60.00"
                     - code: quote_trail
                       list:
                         - code: type
@@ -10136,48 +9668,12 @@ steps:
                         - code: currency
                           value: INR
                         - code: value
-                          value: "-4.00"
+                          value: "-3.00"
               quote:
                 price:
                   currency: INR
-                  value: "749.20"
+                  value: "445.75"
                 breakup:
-                  - "@ondc/org/item_id": I1
-                    "@ondc/org/item_quantity":
-                      count: 1
-                    title: Farm House Pizza
-                    "@ondc/org/title_type": item
-                    price:
-                      currency: INR
-                      value: "269.00"
-                    item:
-                      parent_item_id: P0
-                      quantity:
-                        available:
-                          count: "99"
-                        maximum:
-                          count: "99"
-                      price:
-                        currency: INR
-                        value: "269.00"
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
-                  - "@ondc/org/item_id": I1
-                    title: Tax
-                    "@ondc/org/title_type": tax
-                    price:
-                      currency: INR
-                      value: "13.45"
-                    item:
-                      parent_item_id: P0
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
                   - "@ondc/org/item_id": C1
                     "@ondc/org/item_quantity":
                       count: 1
@@ -10195,7 +9691,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "0.00"
+                        value: "0"
                       tags:
                         - code: type
                           list:
@@ -10239,7 +9735,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "275.00"
+                        value: "275"
                       tags:
                         - code: type
                           list:
@@ -10269,11 +9765,11 @@ steps:
                   - "@ondc/org/item_id": C14
                     "@ondc/org/item_quantity":
                       count: 1
-                    title: Grilled Mushrooms
+                    title: Grilled Mushroom
                     "@ondc/org/title_type": item
                     price:
                       currency: INR
-                      value: "80.00"
+                      value: "60.00"
                     item:
                       parent_item_id: P0
                       quantity:
@@ -10283,7 +9779,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "80.00"
+                        value: "60"
                       tags:
                         - code: type
                           list:
@@ -10298,7 +9794,7 @@ steps:
                     "@ondc/org/title_type": tax
                     price:
                       currency: INR
-                      value: "4.00"
+                      value: "3.00"
                     item:
                       parent_item_id: P0
                       tags:
@@ -10345,7 +9841,7 @@ steps:
                 params:
                   currency: INR
                   transaction_id: "3937"
-                  amount: "749.20"
+                  amount: "445.75"
                 status: NOT-PAID
                 type: ON-ORDER
                 collected_by: BPP
@@ -10368,8 +9864,8 @@ steps:
               documents:
                 - url: https://invoice_url
                   label: Invoice
-              created_at: 2026-07-02T19:35:25.725Z
-              updated_at: 2026-07-02T19:35:28.284Z
+              created_at: 2026-07-03T11:51:29.177Z
+              updated_at: 2026-07-03T11:51:32.475Z
         type: request
         description: The BPP sends an unsolicited status update to the BAP to notify
           them of the current state of the RTO or part order cancellation
@@ -10564,9 +10060,9 @@ steps:
           context:
             domain: ONDC:RET11
             action: on_status
-            timestamp: 2026-07-02T19:35:28.368Z
+            timestamp: 2026-07-03T11:51:32.595Z
             transaction_id: 70023cc5-3fe9-4b68-9205-aa2ae40f7d96
-            message_id: 776ada3c-4cb2-43b5-beb0-3e0046acb4ad
+            message_id: 5f2d4910-77ba-49b7-b916-e97198c4c098
             bap_id: sample-bap-id
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -10577,7 +10073,7 @@ steps:
             core_version: 1.2.0
           message:
             order:
-              id: "205343"
+              id: "734728"
               state: In-progress
               provider:
                 id: P1
@@ -10708,8 +10204,8 @@ steps:
                   area_code: "400053"
                 email: nobody@nomail.com
                 phone: "9886098860"
-                created_at: 2026-07-02T19:35:25.532Z
-                updated_at: 2026-07-02T19:35:25.532Z
+                created_at: 2026-07-03T11:51:28.879Z
+                updated_at: 2026-07-03T11:51:28.879Z
               fulfillments:
                 - id: F1
                   type: Delivery
@@ -10736,9 +10232,9 @@ steps:
                       email: nobody@nomail.com
                     time:
                       range:
-                        start: 2026-07-02T19:45:27.939Z
-                        end: 2026-07-02T19:55:27.939Z
-                      timestamp: 2026-07-02T19:35:28.216Z
+                        start: 2026-07-03T12:01:31.913Z
+                        end: 2026-07-03T12:11:31.913Z
+                      timestamp: 2026-07-03T11:51:32.352Z
                   end:
                     contact:
                       phone: "9886098860"
@@ -10756,9 +10252,9 @@ steps:
                         area_code: "400053"
                     time:
                       range:
-                        start: 2026-07-02T19:55:27.939Z
-                        end: 2026-07-02T20:45:27.939Z
-                      timestamp: 2026-07-02T19:35:27.939Z
+                        start: 2026-07-03T12:11:31.913Z
+                        end: 2026-07-03T13:01:31.913Z
+                      timestamp: 2026-07-03T11:51:31.913Z
                   tags:
                     - code: routing
                       list:
@@ -10789,30 +10285,6 @@ steps:
                           value: "002"
                         - code: initiated_by
                           value: sample-bpp-id
-                    - code: quote_trail
-                      list:
-                        - code: type
-                          value: item
-                        - code: subtype
-                          value: item
-                        - code: id
-                          value: I1
-                        - code: currency
-                          value: INR
-                        - code: value
-                          value: "-269.00"
-                    - code: quote_trail
-                      list:
-                        - code: type
-                          value: tax
-                        - code: subtype
-                          value: item
-                        - code: id
-                          value: I1
-                        - code: currency
-                          value: INR
-                        - code: value
-                          value: "-13.45"
                     - code: quote_trail
                       list:
                         - code: type
@@ -10872,7 +10344,7 @@ steps:
                         - code: currency
                           value: INR
                         - code: value
-                          value: "-80.00"
+                          value: "-60.00"
                     - code: quote_trail
                       list:
                         - code: type
@@ -10884,48 +10356,12 @@ steps:
                         - code: currency
                           value: INR
                         - code: value
-                          value: "-4.00"
+                          value: "-3.00"
               quote:
                 price:
                   currency: INR
-                  value: "749.20"
+                  value: "445.75"
                 breakup:
-                  - "@ondc/org/item_id": I1
-                    "@ondc/org/item_quantity":
-                      count: 1
-                    title: Farm House Pizza
-                    "@ondc/org/title_type": item
-                    price:
-                      currency: INR
-                      value: "269.00"
-                    item:
-                      parent_item_id: P0
-                      quantity:
-                        available:
-                          count: "99"
-                        maximum:
-                          count: "99"
-                      price:
-                        currency: INR
-                        value: "269.00"
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
-                  - "@ondc/org/item_id": I1
-                    title: Tax
-                    "@ondc/org/title_type": tax
-                    price:
-                      currency: INR
-                      value: "13.45"
-                    item:
-                      parent_item_id: P0
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
                   - "@ondc/org/item_id": C1
                     "@ondc/org/item_quantity":
                       count: 1
@@ -10943,7 +10379,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "0.00"
+                        value: "0"
                       tags:
                         - code: type
                           list:
@@ -10987,7 +10423,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "275.00"
+                        value: "275"
                       tags:
                         - code: type
                           list:
@@ -11017,11 +10453,11 @@ steps:
                   - "@ondc/org/item_id": C14
                     "@ondc/org/item_quantity":
                       count: 1
-                    title: Grilled Mushrooms
+                    title: Grilled Mushroom
                     "@ondc/org/title_type": item
                     price:
                       currency: INR
-                      value: "80.00"
+                      value: "60.00"
                     item:
                       parent_item_id: P0
                       quantity:
@@ -11031,7 +10467,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "80.00"
+                        value: "60"
                       tags:
                         - code: type
                           list:
@@ -11046,7 +10482,7 @@ steps:
                     "@ondc/org/title_type": tax
                     price:
                       currency: INR
-                      value: "4.00"
+                      value: "3.00"
                     item:
                       parent_item_id: P0
                       tags:
@@ -11093,7 +10529,7 @@ steps:
                 params:
                   currency: INR
                   transaction_id: "3937"
-                  amount: "749.20"
+                  amount: "445.75"
                 status: NOT-PAID
                 type: ON-ORDER
                 collected_by: BPP
@@ -11116,8 +10552,8 @@ steps:
               documents:
                 - url: https://invoice_url
                   label: Invoice
-              created_at: 2026-07-02T19:35:25.725Z
-              updated_at: 2026-07-02T19:35:28.373Z
+              created_at: 2026-07-03T11:51:29.177Z
+              updated_at: 2026-07-03T11:51:32.609Z
         type: request
         description: The BPP sends an unsolicited on_status update to the BAP to notify
           the buyer of the current state and fulfillment progress of the RTO or
@@ -11313,9 +10749,9 @@ steps:
           context:
             domain: ONDC:RET11
             action: on_status
-            timestamp: 2026-07-02T19:35:28.436Z
+            timestamp: 2026-07-03T11:51:32.727Z
             transaction_id: 70023cc5-3fe9-4b68-9205-aa2ae40f7d96
-            message_id: 56cfd30f-b379-4a9c-a888-1a4d6c5f7801
+            message_id: 5e5ba79e-b8f3-4b83-a402-0b357bac3eba
             bap_id: sample-bap-id
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -11326,7 +10762,7 @@ steps:
             core_version: 1.2.0
           message:
             order:
-              id: "205343"
+              id: "734728"
               state: Completed
               provider:
                 id: P1
@@ -11457,8 +10893,8 @@ steps:
                   area_code: "400053"
                 email: nobody@nomail.com
                 phone: "9886098860"
-                created_at: 2026-07-02T19:35:25.532Z
-                updated_at: 2026-07-02T19:35:25.532Z
+                created_at: 2026-07-03T11:51:28.879Z
+                updated_at: 2026-07-03T11:51:28.879Z
               fulfillments:
                 - id: F1
                   type: Delivery
@@ -11485,9 +10921,9 @@ steps:
                       email: nobody@nomail.com
                     time:
                       range:
-                        start: 2026-07-02T19:45:27.939Z
-                        end: 2026-07-02T19:55:27.939Z
-                      timestamp: 2026-07-02T19:35:28.216Z
+                        start: 2026-07-03T12:01:31.913Z
+                        end: 2026-07-03T12:11:31.913Z
+                      timestamp: 2026-07-03T11:51:32.352Z
                   end:
                     contact:
                       phone: "9886098860"
@@ -11505,9 +10941,9 @@ steps:
                         area_code: "400053"
                     time:
                       range:
-                        start: 2026-07-02T19:55:27.939Z
-                        end: 2026-07-02T20:45:27.939Z
-                      timestamp: 2026-07-02T19:35:28.441Z
+                        start: 2026-07-03T12:11:31.913Z
+                        end: 2026-07-03T13:01:31.913Z
+                      timestamp: 2026-07-03T11:51:32.743Z
                   tags:
                     - code: routing
                       list:
@@ -11538,30 +10974,6 @@ steps:
                           value: "002"
                         - code: initiated_by
                           value: sample-bpp-id
-                    - code: quote_trail
-                      list:
-                        - code: type
-                          value: item
-                        - code: subtype
-                          value: item
-                        - code: id
-                          value: I1
-                        - code: currency
-                          value: INR
-                        - code: value
-                          value: "-269.00"
-                    - code: quote_trail
-                      list:
-                        - code: type
-                          value: tax
-                        - code: subtype
-                          value: item
-                        - code: id
-                          value: I1
-                        - code: currency
-                          value: INR
-                        - code: value
-                          value: "-13.45"
                     - code: quote_trail
                       list:
                         - code: type
@@ -11621,7 +11033,7 @@ steps:
                         - code: currency
                           value: INR
                         - code: value
-                          value: "-80.00"
+                          value: "-60.00"
                     - code: quote_trail
                       list:
                         - code: type
@@ -11633,48 +11045,12 @@ steps:
                         - code: currency
                           value: INR
                         - code: value
-                          value: "-4.00"
+                          value: "-3.00"
               quote:
                 price:
                   currency: INR
-                  value: "749.20"
+                  value: "445.75"
                 breakup:
-                  - "@ondc/org/item_id": I1
-                    "@ondc/org/item_quantity":
-                      count: 1
-                    title: Farm House Pizza
-                    "@ondc/org/title_type": item
-                    price:
-                      currency: INR
-                      value: "269.00"
-                    item:
-                      parent_item_id: P0
-                      quantity:
-                        available:
-                          count: "99"
-                        maximum:
-                          count: "99"
-                      price:
-                        currency: INR
-                        value: "269.00"
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
-                  - "@ondc/org/item_id": I1
-                    title: Tax
-                    "@ondc/org/title_type": tax
-                    price:
-                      currency: INR
-                      value: "13.45"
-                    item:
-                      parent_item_id: P0
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
                   - "@ondc/org/item_id": C1
                     "@ondc/org/item_quantity":
                       count: 1
@@ -11692,7 +11068,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "0.00"
+                        value: "0"
                       tags:
                         - code: type
                           list:
@@ -11736,7 +11112,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "275.00"
+                        value: "275"
                       tags:
                         - code: type
                           list:
@@ -11766,11 +11142,11 @@ steps:
                   - "@ondc/org/item_id": C14
                     "@ondc/org/item_quantity":
                       count: 1
-                    title: Grilled Mushrooms
+                    title: Grilled Mushroom
                     "@ondc/org/title_type": item
                     price:
                       currency: INR
-                      value: "80.00"
+                      value: "60.00"
                     item:
                       parent_item_id: P0
                       quantity:
@@ -11780,7 +11156,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "80.00"
+                        value: "60"
                       tags:
                         - code: type
                           list:
@@ -11795,7 +11171,7 @@ steps:
                     "@ondc/org/title_type": tax
                     price:
                       currency: INR
-                      value: "4.00"
+                      value: "3.00"
                     item:
                       parent_item_id: P0
                       tags:
@@ -11842,7 +11218,7 @@ steps:
                 params:
                   currency: INR
                   transaction_id: "3937"
-                  amount: "749.20"
+                  amount: "445.75"
                 status: NOT-PAID
                 type: ON-ORDER
                 collected_by: BPP
@@ -11865,8 +11241,8 @@ steps:
               documents:
                 - url: https://invoice_url
                   label: Invoice
-              created_at: 2026-07-02T19:35:25.725Z
-              updated_at: 2026-07-02T19:35:28.441Z
+              created_at: 2026-07-03T11:51:29.177Z
+              updated_at: 2026-07-03T11:51:32.743Z
         type: request
         description: The BPP sends an unsolicited on_status update to the BAP to
           communicate the current state of the order and the status of the
@@ -12088,9 +11464,9 @@ steps:
           context:
             domain: ONDC:RET11
             action: on_cancel
-            timestamp: 2026-07-02T19:35:28.530Z
+            timestamp: 2026-07-03T11:51:32.851Z
             transaction_id: 70023cc5-3fe9-4b68-9205-aa2ae40f7d96
-            message_id: 0526e5d0-e2bf-4508-8dc8-fdd84fba91fb
+            message_id: 1f319a2b-cf02-4faf-9a2b-29493d55f081
             bap_id: sample-bap-id
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -12101,7 +11477,7 @@ steps:
             core_version: 1.2.0
           message:
             order:
-              id: "205343"
+              id: "734728"
               state: Cancelled
               provider:
                 id: P1
@@ -12232,8 +11608,8 @@ steps:
                   area_code: "400053"
                 email: nobody@nomail.com
                 phone: "9886098860"
-                created_at: 2026-07-02T19:35:25.532Z
-                updated_at: 2026-07-02T19:35:25.532Z
+                created_at: 2026-07-03T11:51:28.879Z
+                updated_at: 2026-07-03T11:51:28.879Z
               fulfillments:
                 - id: F1
                   type: Delivery
@@ -12257,7 +11633,7 @@ steps:
                           - code: fulfillment_state
                             value: Order-picked-up
                           - code: updated_at
-                            value: 2026-07-02T19:35:28.530Z
+                            value: 2026-07-03T11:51:32.851Z
                   "@ondc/org/TAT": PT60M
                   "@ondc/org/provider_name": Store 1
                   start:
@@ -12307,30 +11683,6 @@ steps:
                         - code: type
                           value: item
                         - code: subtype
-                          value: item
-                        - code: id
-                          value: I1
-                        - code: currency
-                          value: INR
-                        - code: value
-                          value: "-269.00"
-                    - code: quote_trail
-                      list:
-                        - code: type
-                          value: tax
-                        - code: subtype
-                          value: item
-                        - code: id
-                          value: I1
-                        - code: currency
-                          value: INR
-                        - code: value
-                          value: "-13.45"
-                    - code: quote_trail
-                      list:
-                        - code: type
-                          value: item
-                        - code: subtype
                           value: customization
                         - code: id
                           value: C1
@@ -12385,7 +11737,7 @@ steps:
                         - code: currency
                           value: INR
                         - code: value
-                          value: "-80.00"
+                          value: "-60.00"
                     - code: quote_trail
                       list:
                         - code: type
@@ -12397,7 +11749,7 @@ steps:
                         - code: currency
                           value: INR
                         - code: value
-                          value: "-4.00"
+                          value: "-3.00"
                 - id: F1-RTO
                   type: RTO
                   state:
@@ -12439,30 +11791,6 @@ steps:
                         - code: type
                           value: item
                         - code: subtype
-                          value: item
-                        - code: id
-                          value: I1
-                        - code: currency
-                          value: INR
-                        - code: value
-                          value: "-269.00"
-                    - code: quote_trail
-                      list:
-                        - code: type
-                          value: tax
-                        - code: subtype
-                          value: item
-                        - code: id
-                          value: I1
-                        - code: currency
-                          value: INR
-                        - code: value
-                          value: "-13.45"
-                    - code: quote_trail
-                      list:
-                        - code: type
-                          value: item
-                        - code: subtype
                           value: customization
                         - code: id
                           value: C1
@@ -12517,7 +11845,7 @@ steps:
                         - code: currency
                           value: INR
                         - code: value
-                          value: "-80.00"
+                          value: "-60.00"
                     - code: quote_trail
                       list:
                         - code: type
@@ -12529,7 +11857,7 @@ steps:
                         - code: currency
                           value: INR
                         - code: value
-                          value: "-4.00"
+                          value: "-3.00"
                     - code: quote_trail
                       list:
                         - code: type
@@ -12555,42 +11883,6 @@ steps:
                   currency: INR
                   value: "0.00"
                 breakup:
-                  - "@ondc/org/item_id": I1
-                    "@ondc/org/item_quantity":
-                      count: 0
-                    title: Farm House Pizza
-                    "@ondc/org/title_type": item
-                    price:
-                      currency: INR
-                      value: "0.00"
-                    item:
-                      parent_item_id: P0
-                      quantity:
-                        available:
-                          count: "99"
-                        maximum:
-                          count: "99"
-                      price:
-                        currency: INR
-                        value: "269.00"
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
-                  - "@ondc/org/item_id": I1
-                    title: Tax
-                    "@ondc/org/title_type": tax
-                    price:
-                      currency: INR
-                      value: "0.00"
-                    item:
-                      parent_item_id: P0
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
                   - "@ondc/org/item_id": C1
                     "@ondc/org/item_quantity":
                       count: 0
@@ -12608,7 +11900,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "0.00"
+                        value: "0"
                       tags:
                         - code: type
                           list:
@@ -12652,7 +11944,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "275.00"
+                        value: "275"
                       tags:
                         - code: type
                           list:
@@ -12682,7 +11974,7 @@ steps:
                   - "@ondc/org/item_id": C14
                     "@ondc/org/item_quantity":
                       count: 0
-                    title: Grilled Mushrooms
+                    title: Grilled Mushroom
                     "@ondc/org/title_type": item
                     price:
                       currency: INR
@@ -12696,7 +11988,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "80.00"
+                        value: "60"
                       tags:
                         - code: type
                           list:
@@ -12728,7 +12020,7 @@ steps:
                 params:
                   currency: INR
                   transaction_id: "3937"
-                  amount: "749.20"
+                  amount: "445.75"
                 status: NOT-PAID
                 type: ON-ORDER
                 collected_by: BPP
@@ -12748,8 +12040,8 @@ steps:
                     beneficiary_name: xxxx
                     bank_name: xxxx
                     branch_name: xxxx
-              created_at: 2026-07-02T19:35:25.725Z
-              updated_at: 2026-07-02T19:35:28.530Z
+              created_at: 2026-07-03T11:51:29.177Z
+              updated_at: 2026-07-03T11:51:32.851Z
               cancellation:
                 cancelled_by: sample-bap-id
                 reason:
@@ -12818,9 +12110,9 @@ steps:
           context:
             domain: ONDC:RET11
             action: update
-            timestamp: 2026-07-02T19:35:27.846Z
+            timestamp: 2026-07-03T11:51:32.988Z
             transaction_id: 70023cc5-3fe9-4b68-9205-aa2ae40f7d96
-            message_id: a8d40712-2f88-4c05-a2ca-c6cb381c8b2f
+            message_id: 60139991-1eeb-4e8f-b89d-9b68e77c0b68
             bap_id: sample-bap-id
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -12832,7 +12124,7 @@ steps:
           message:
             update_target: payment
             order:
-              id: "205343"
+              id: "734728"
               fulfillments:
                 - id: C1
                   type: Cancel
@@ -12841,8 +12133,8 @@ steps:
                   - settlement_counterparty: buyer
                     settlement_phase: refund
                     settlement_type: upi
-                    settlement_amount: "654"
-                    settlement_timestamp: 2026-07-02T19:35:27.846Z
+                    settlement_amount: "721"
+                    settlement_timestamp: 2026-07-03T11:51:32.988Z
         type: request
         description: The BAP sends an update request to the BPP to modify the order
           details for the RTO or part cancellation process, including updated
@@ -13492,9 +12784,9 @@ steps:
           context:
             domain: ONDC:RET11
             action: on_status
-            timestamp: 2026-07-02T19:35:28.601Z
+            timestamp: 2026-07-03T11:51:33.100Z
             transaction_id: 70023cc5-3fe9-4b68-9205-aa2ae40f7d96
-            message_id: 143bd5a3-7d41-48fc-b3d1-e1e10774b1f1
+            message_id: 7cf5cf26-d897-44bc-8f95-db879eced4c8
             bap_id: sample-bap-id
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -13505,7 +12797,7 @@ steps:
             core_version: 1.2.0
           message:
             order:
-              id: "205343"
+              id: "734728"
               state: Completed
               provider:
                 id: P1
@@ -13636,8 +12928,8 @@ steps:
                   area_code: "400053"
                 email: nobody@nomail.com
                 phone: "9886098860"
-                created_at: 2026-07-02T19:35:25.532Z
-                updated_at: 2026-07-02T19:35:25.532Z
+                created_at: 2026-07-03T11:51:28.879Z
+                updated_at: 2026-07-03T11:51:28.879Z
               fulfillments:
                 - id: F1
                   type: Delivery
@@ -13664,9 +12956,9 @@ steps:
                       email: nobody@nomail.com
                     time:
                       range:
-                        start: 2026-07-02T19:45:27.939Z
-                        end: 2026-07-02T19:55:27.939Z
-                      timestamp: 2026-07-02T19:35:28.216Z
+                        start: 2026-07-03T12:01:31.913Z
+                        end: 2026-07-03T12:11:31.913Z
+                      timestamp: 2026-07-03T11:51:32.352Z
                   end:
                     contact:
                       phone: "9886098860"
@@ -13684,9 +12976,9 @@ steps:
                         area_code: "400053"
                     time:
                       range:
-                        start: 2026-07-02T19:55:27.939Z
-                        end: 2026-07-02T20:45:27.939Z
-                      timestamp: 2026-07-02T19:35:28.441Z
+                        start: 2026-07-03T12:11:31.913Z
+                        end: 2026-07-03T13:01:31.913Z
+                      timestamp: 2026-07-03T11:51:32.743Z
                   tags:
                     - code: routing
                       list:
@@ -13717,30 +13009,6 @@ steps:
                           value: "002"
                         - code: initiated_by
                           value: sample-bpp-id
-                    - code: quote_trail
-                      list:
-                        - code: type
-                          value: item
-                        - code: subtype
-                          value: item
-                        - code: id
-                          value: I1
-                        - code: currency
-                          value: INR
-                        - code: value
-                          value: "-269.00"
-                    - code: quote_trail
-                      list:
-                        - code: type
-                          value: tax
-                        - code: subtype
-                          value: item
-                        - code: id
-                          value: I1
-                        - code: currency
-                          value: INR
-                        - code: value
-                          value: "-13.45"
                     - code: quote_trail
                       list:
                         - code: type
@@ -13800,7 +13068,7 @@ steps:
                         - code: currency
                           value: INR
                         - code: value
-                          value: "-80.00"
+                          value: "-60.00"
                     - code: quote_trail
                       list:
                         - code: type
@@ -13812,48 +13080,12 @@ steps:
                         - code: currency
                           value: INR
                         - code: value
-                          value: "-4.00"
+                          value: "-3.00"
               quote:
                 price:
                   currency: INR
                   value: "0.00"
                 breakup:
-                  - "@ondc/org/item_id": I1
-                    "@ondc/org/item_quantity":
-                      count: 0
-                    title: Farm House Pizza
-                    "@ondc/org/title_type": item
-                    price:
-                      currency: INR
-                      value: "0.00"
-                    item:
-                      parent_item_id: P0
-                      quantity:
-                        available:
-                          count: "99"
-                        maximum:
-                          count: "99"
-                      price:
-                        currency: INR
-                        value: "269.00"
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
-                  - "@ondc/org/item_id": I1
-                    title: Tax
-                    "@ondc/org/title_type": tax
-                    price:
-                      currency: INR
-                      value: "0.00"
-                    item:
-                      parent_item_id: P0
-                      tags:
-                        - code: type
-                          list:
-                            - code: type
-                              value: item
                   - "@ondc/org/item_id": C1
                     "@ondc/org/item_quantity":
                       count: 0
@@ -13871,7 +13103,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "0.00"
+                        value: "0"
                       tags:
                         - code: type
                           list:
@@ -13915,7 +13147,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "275.00"
+                        value: "275"
                       tags:
                         - code: type
                           list:
@@ -13945,7 +13177,7 @@ steps:
                   - "@ondc/org/item_id": C14
                     "@ondc/org/item_quantity":
                       count: 0
-                    title: Grilled Mushrooms
+                    title: Grilled Mushroom
                     "@ondc/org/title_type": item
                     price:
                       currency: INR
@@ -13959,7 +13191,7 @@ steps:
                           count: "99"
                       price:
                         currency: INR
-                        value: "80.00"
+                        value: "60"
                       tags:
                         - code: type
                           list:
@@ -13991,7 +13223,7 @@ steps:
                 params:
                   currency: INR
                   transaction_id: "3937"
-                  amount: "749.20"
+                  amount: "445.75"
                 status: NOT-PAID
                 type: ON-ORDER
                 collected_by: BPP
@@ -14011,8 +13243,8 @@ steps:
                     beneficiary_name: xxxx
                     bank_name: xxxx
                     branch_name: xxxx
-              created_at: 2026-07-02T19:35:25.725Z
-              updated_at: 2026-07-02T19:35:28.607Z
+              created_at: 2026-07-03T11:51:29.177Z
+              updated_at: 2026-07-03T11:51:33.116Z
         type: request
         description: The BPP sends an unsolicited on_status update to the BAP to notify
           the buyer of a change in the order status during the RTO and partial
