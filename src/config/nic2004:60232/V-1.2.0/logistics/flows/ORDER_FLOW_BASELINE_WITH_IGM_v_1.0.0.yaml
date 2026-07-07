@@ -1,7 +1,7 @@
 meta:
   domain: nic2004:60232
   version: 1.2.0
-  flowId: ORDER_FLOW_BASELINE_WITH_IGM(v-1.0.0)
+  flowId: ORDER_FLOW_BASELINE_WITH_IGM_v_1.0.0
   description: Order Flow (Baseline) With IGM v-1.0.0
   flowName: ORDER FLOW BASELINE WITH IGM(v-1.0.0)
   use_case_id: Logistics (NIC2004:60232)
