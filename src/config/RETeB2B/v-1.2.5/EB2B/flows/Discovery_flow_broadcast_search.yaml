@@ -191,6 +191,11 @@ steps:
                   images:
                     - https://seller-np.com/images/abc-dist.png
                 ttl: P1D
+                creds:
+                  - id: 29ABCDE1234E1Z5
+                    descriptor:
+                      code: GSTIN
+                    url: https://seller-np.com/images/gstin-cert.png
                 fulfillments:
                   - id: F1
                     type: Delivery
@@ -317,6 +322,7 @@ steps:
                       - L1
                     category_ids:
                       - Soft Drinks and Juices
+                      - Energy and Soft Drinks
                     item_ids:
                       - I5
                       - I6
@@ -436,6 +442,14 @@ steps:
                         list:
                           - code: item_count
                             value: "50"
+                      - code: benefit
+                        list:
+                          - code: item_count
+                            value: "1"
+                          - code: item_id
+                            value: I1
+                          - code: item_value
+                            value: "0.00"
                       - code: meta
                         list:
                           - code: additive
@@ -1177,10 +1191,6 @@ steps:
                     list:
                       - code: customer_id
                         value: "true"
-                      - code: type
-                        value: existing
-                  - code: retailer_info_required
-                    list:
                       - code: phone_number
                         value: "true"
                       - code: tax_number
@@ -1246,6 +1256,11 @@ steps:
                     images:
                       - https://seller-np.com/images/abc-dist.png
                   ttl: P1D
+                  creds:
+                    - id: 29ABCDE1234E1Z5
+                      descriptor:
+                        code: GSTIN
+                      url: https://seller-np.com/images/gstin-cert.png
                   fulfillments:
                     - id: F1
                       type: Delivery
@@ -1380,6 +1395,7 @@ steps:
                         - L1
                       category_ids:
                         - Soft Drinks and Juices
+                        - Energy and Soft Drinks
                       item_ids:
                         - I5
                         - I6
@@ -1499,6 +1515,14 @@ steps:
                           list:
                             - code: item_count
                               value: "50"
+                        - code: benefit
+                          list:
+                            - code: item_count
+                              value: "1"
+                            - code: item_id
+                              value: I1
+                            - code: item_value
+                              value: "0.00"
                         - code: meta
                           list:
                             - code: additive
@@ -2241,10 +2265,6 @@ steps:
                       list:
                         - code: customer_id
                           value: "true"
-                        - code: type
-                          value: existing
-                    - code: retailer_info_required
-                      list:
                         - code: phone_number
                           value: "true"
                         - code: tax_number
