@@ -24,3 +24,10 @@ flows:
     config:
       $ref: "src/config/nic2004:60232/V-1.2.0/logistics/flows/RTO_FLOW.yaml"
   
+  - type: playground
+    id: ORDER_FLOW_BASELINE_WITH_IGM_v_1.0.0
+    tags: ["WORKBENCH", "MANDATORY"]
+    description: Order Flow (Baseline) With IGM v-1.0.0
+    config:
+      $ref: "src/config/nic2004:60232/V-1.2.0/logistics/flows/ORDER_FLOW_BASELINE_WITH_IGM_v_1.0.0.yaml"
+  
