@@ -476,7 +476,7 @@ steps:
               updated_at: 2025-01-08T09:00:00.000Z
             payments:
               - type: ON-ORDER
-                collected_by: BPP
+                collected_by: BAP
             fulfillments:
               - id: F1
                 type: Delivery
@@ -555,7 +555,7 @@ steps:
                 updated_at: 2026-05-11T11:04:05.580Z
               payments:
                 - type: ON-ORDER
-                  collected_by: BPP
+                  collected_by: BAP
               fulfillments:
                 - id: F1
                   type: Delivery
@@ -620,7 +620,7 @@ steps:
     description: Response to Init call
     mock:
       generate: YXN5bmMgZnVuY3Rpb24gZ2VuZXJhdGUoZGVmYXVsdFBheWxvYWQsIHNlc3Npb25EYXRhKSB7CiAgY29uc3Qgc2F2ZWRDaXR5ID0gc2Vzc2lvbkRhdGE/LnBheWxvYWRfY2l0eT8uWzBdOwoKICBpZiAoIWRlZmF1bHRQYXlsb2FkLmNvbnRleHQpIHsKICAgIGRlZmF1bHRQYXlsb2FkLmNvbnRleHQgPSB7fTsKICB9CgogIGlmIChzYXZlZENpdHkpIHsKICAgIGRlZmF1bHRQYXlsb2FkLmNvbnRleHQuY2l0eSA9IHNhdmVkQ2l0eTsKICB9CgogIC8vIFByb3ZpZGVyIHByb3BhZ2F0aW9uCiAgY29uc3QgcmF3UHJvdmlkZXIgPSBzZXNzaW9uRGF0YT8ucHJvdmlkZXJfaW5mbyB8fCBzZXNzaW9uRGF0YT8ucHJvdmlkZXI7CiAgY29uc3Qgc2F2ZWRQcm92aWRlciA9IEFycmF5LmlzQXJyYXkocmF3UHJvdmlkZXIpID8gcmF3UHJvdmlkZXJbMF0gOiByYXdQcm92aWRlcjsKICBpZiAoc2F2ZWRQcm92aWRlciAmJiBkZWZhdWx0UGF5bG9hZC5tZXNzYWdlPy5vcmRlcikgewogICAgZGVmYXVsdFBheWxvYWQubWVzc2FnZS5vcmRlci5wcm92aWRlciA9IHsKICAgICAgLi4uKGRlZmF1bHRQYXlsb2FkLm1lc3NhZ2Uub3JkZXIucHJvdmlkZXIgfHwge30pLAogICAgICAuLi5zYXZlZFByb3ZpZGVyCiAgICB9OwogIH0KCiAgY29uc3Qgc2F2ZWRGdWxmaWxsbWVudHMgPSBzZXNzaW9uRGF0YT8uc2F2ZWRfZnVsZmlsbG1lbnRzIHx8IFtdOwogIGNvbnN0IHNhdmVkSXRlbXMgPSBBcnJheS5pc0FycmF5KHNlc3Npb25EYXRhPy5zYXZlZF9pdGVtcykKICAgID8gc2Vzc2lvbkRhdGEuc2F2ZWRfaXRlbXMuZmxhdCgyKQogICAgOiBbXTsKCiAgY29uc3Qgc2F2ZWRRdW90ZSA9IHNlc3Npb25EYXRhPy5xdW90ZSB8fCBudWxsOwogIAogIC8qIC0tLSBORVc6IFJFVFJJRVZFIFNFTEVDVEVEIE9GRkVSUyAtLS0gKi8KICBjb25zdCBzZWxlY3RlZE9mZmVycyA9IHNlc3Npb25EYXRhPy5zZWxlY3RlZF9vZmZlcnMgfHwgW107CgogIGlmICghZGVmYXVsdFBheWxvYWQubWVzc2FnZSkgZGVmYXVsdFBheWxvYWQubWVzc2FnZSA9IHt9OwogIGlmICghZGVmYXVsdFBheWxvYWQubWVzc2FnZS5vcmRlcikgZGVmYXVsdFBheWxvYWQubWVzc2FnZS5vcmRlciA9IHt9OwoKICBjb25zdCBkZWZhdWx0RnVsZmlsbG1lbnRJZCA9CiAgICBzYXZlZEZ1bGZpbGxtZW50cz8uWzBdPy5bMF0/LmlkIHx8CiAgICBkZWZhdWx0UGF5bG9hZD8ubWVzc2FnZT8ub3JkZXI/LmZ1bGZpbGxtZW50cz8uWzBdPy5pZDsKCiAgZGVmYXVsdFBheWxvYWQubWVzc2FnZS5vcmRlci5pdGVtcyA9IChzYXZlZEl0ZW1zIHx8IFtdKQogICAgLmZpbHRlcigoaXRlbSkgPT4gaXRlbSAmJiBpdGVtLmlkKQogICAgLm1hcCgoaXRlbSkgPT4gewogICAgICBjb25zdCBmdWxmaWxsbWVudElkID0KICAgICAgICBpdGVtLmZ1bGZpbGxtZW50X2lkIHx8CiAgICAgICAgZGVmYXVsdEZ1bGZpbGxtZW50SWQ7CgogICAgICByZXR1cm4gewogICAgICAgIGlkOiBpdGVtLmlkLAogICAgICAgIGxvY2F0aW9uX2lkOgogICAgICAgICAgaXRlbS5sb2NhdGlvbl9pZCA/PwogICAgICAgICAgaXRlbS5sb2NhdGlvbiA/PwogICAgICAgICAgdW5kZWZpbmVkLAogICAgICAgIHF1YW50aXR5OiB7CiAgICAgICAgICBjb3VudDoKICAgICAgICAgICAgaXRlbT8ucXVhbnRpdHk/LmNvdW50ID8/CiAgICAgICAgICAgIGl0ZW0/LmNvdW50ID8/CiAgICAgICAgICAgIDEKICAgICAgICB9LAogICAgICAgIGZ1bGZpbGxtZW50X2lkOiBmdWxmaWxsbWVudElkCiAgICAgIH07CiAgICB9KTsKCiAgLyogLS0tIE9GRkVSUyBBUlJBWSBJTVBMRU1FTlRBVElPTiAtLS0gKi8KICBpZiAoc2VsZWN0ZWRPZmZlcnMubGVuZ3RoID4gMCkgewogICAgZGVmYXVsdFBheWxvYWQubWVzc2FnZS5vcmRlci5vZmZlcnMgPSBzZWxlY3RlZE9mZmVycy5tYXAob2ZmZXIgPT4gewogICAgICAvLyBFbnN1cmUgd2Ugb25seSByZXR1cm4gdGhlIElEIGFzIHBlciBPTkRDIFJFVGVCMkIgaW5pdC9vbl9pbml0IHNwZWMKICAgICAgY29uc3QgaWQgPSB0eXBlb2Ygb2ZmZXIgPT09ICdzdHJpbmcnID8gb2ZmZXIgOiAob2ZmZXIuaWQgfHwgb2ZmZXIub2ZmZXJJZCk7CiAgICAgIHJldHVybiB7IGlkOiBpZCB9OwogICAgfSk7CiAgfQoKICBpZiAoc2F2ZWRRdW90ZSkgewogICAgZGVmYXVsdFBheWxvYWQubWVzc2FnZS5vcmRlci5xdW90ZSA9CiAgICAgIEFycmF5LmlzQXJyYXkoc2F2ZWRRdW90ZSkgPyBzYXZlZFF1b3RlWzBdIDogc2F2ZWRRdW90ZTsKICB9CgogIGlmICgKICAgIHNhdmVkRnVsZmlsbG1lbnRzLmxlbmd0aCAmJgogICAgZGVmYXVsdFBheWxvYWQubWVzc2FnZS5vcmRlci5mdWxmaWxsbWVudHM/Lmxlbmd0aAogICkgewogICAgY29uc3Qgc2F2ZWRDdXN0b21lciA9IHNhdmVkRnVsZmlsbG1lbnRzPy5bMF0/LlswXT8uY3VzdG9tZXI7CiAgICBpZiAoc2F2ZWRDdXN0b21lcikgewogICAgICBkZWZhdWx0UGF5bG9hZC5tZXNzYWdlLm9yZGVyLmZ1bGZpbGxtZW50c1swXS5jdXN0b21lciA9IHNhdmVkQ3VzdG9tZXI7CiAgICB9CiAgfQoKICAvKiAtLS0gVEFHUyAmIENSRURJVCBWQUxJRElUWSAtLS0gKi8KICBjb25zdCB0YWdzID0gZGVmYXVsdFBheWxvYWQ/Lm1lc3NhZ2U/Lm9yZGVyPy50YWdzIHx8IFtdOwogIHRhZ3MuZm9yRWFjaCgodGFnKSA9PiB7CiAgICBpZiAodGFnLmNvZGUgPT09ICJjcmVkaXQiKSB7CiAgICAgIHRhZy5saXN0LmZvckVhY2goKGl0ZW0pID0+IHsKICAgICAgICBpZiAoaXRlbS5jb2RlID09PSAidmFsaWRfdGlsbCIpIHsKICAgICAgICAgIGNvbnN0IGZ1dHVyZSA9IG5ldyBEYXRlKCk7CiAgICAgICAgICBmdXR1cmUuc2V0RGF0ZShmdXR1cmUuZ2V0RGF0ZSgpICsgOTApOwogICAgICAgICAgaXRlbS52YWx1ZSA9IGZ1dHVyZS50b0lTT1N0cmluZygpOwogICAgICAgIH0KICAgICAgfSk7CiAgICB9CiAgfSk7CgogIGRlZmF1bHRQYXlsb2FkLm1lc3NhZ2Uub3JkZXIudGFncyA9IHRhZ3M7CgogIGFwcGx5RHluYW1pY1RpbWVzdGFtcHMoZGVmYXVsdFBheWxvYWQpOwoKICByZXR1cm4gZGVmYXVsdFBheWxvYWQ7Cn0=
-      validate: ZnVuY3Rpb24gdmFsaWRhdGUodGFyZ2V0UGF5bG9hZCwgc2Vzc2lvbkRhdGEpIHsKICBjb25zdCBlcnJvcnMgPSBbXTsKICBjb25zdCBwdXNoRXJyb3IgPSAoY29kZSwgZGVzY3JpcHRpb24pID0+IHsgZXJyb3JzLnB1c2goeyBjb2RlLCBkZXNjcmlwdGlvbiB9KTsgfTsKCiAgY29uc3Qgb3JkZXIgPSB0YXJnZXRQYXlsb2FkPy5tZXNzYWdlPy5vcmRlcjsKCiAgLy8gUHJlcGFpZCBwYXltZW50OiBlYWNoIHBheW1lbnQgZW50cnkgbXVzdCBjYXJyeSBhIHVyaSAocGF5bWVudCBnYXRld2F5IFVSTCkKICBjb25zdCBwYXltZW50cyA9IEFycmF5LmlzQXJyYXkob3JkZXI/LnBheW1lbnRzKSA/IG9yZGVyLnBheW1lbnRzIDogW107CiAgZm9yIChsZXQgaSA9IDA7IGkgPCBwYXltZW50cy5sZW5ndGg7IGkrKykgewogICAgaWYgKCFwYXltZW50c1tpXT8udXJpKSB7CiAgICAgIHB1c2hFcnJvcig0MDAsIGBvbl9pbml0IHBheW1lbnRzWyR7aX1dIG1pc3NpbmcgdXJpIOKAlCBQcmVwYWlkIHBheW1lbnQgcmVxdWlyZXMgYSBwYXltZW50IGdhdGV3YXkgVVJJYCk7CiAgICB9CiAgfQoKICAvLyBmdWxmaWxsbWVudHNbKl0uY3VzdG9tZXIgbXVzdCBiZSBwcmVzZW50IChidXllciBjdXN0b21lciBvYmplY3QpCiAgY29uc3QgZnVsZmlsbG1lbnRzID0gQXJyYXkuaXNBcnJheShvcmRlcj8uZnVsZmlsbG1lbnRzKSA/IG9yZGVyLmZ1bGZpbGxtZW50cyA6IFtdOwogIGZvciAobGV0IGkgPSAwOyBpIDwgZnVsZmlsbG1lbnRzLmxlbmd0aDsgaSsrKSB7CiAgICBpZiAoIWZ1bGZpbGxtZW50c1tpXT8uY3VzdG9tZXIpIHsKICAgICAgcHVzaEVycm9yKDQwMCwgYG9uX2luaXQgZnVsZmlsbG1lbnRzWyR7aX1dIG1pc3NpbmcgY3VzdG9tZXIgb2JqZWN0YCk7CiAgICB9CiAgfQoKICBjb25zdCB0YWdzID0gQXJyYXkuaXNBcnJheShvcmRlcj8udGFncykgPyBvcmRlci50YWdzIDogW107CgogIC8vIGZuLjIxOTogYnBwX3Rlcm1zIHRhZyBtdXN0IGNhcnJ5IGEgbm9uLWVtcHR5IHByb3ZpZGVyX3RheF9udW1iZXIgKHByb3ZpZGVyIFBBTikKICBjb25zdCBicHBUZXJtc1RhZyA9IHRhZ3MuZmluZCh0ID0+IHQ/LmNvZGUgPT09ICJicHBfdGVybXMiKTsKICBpZiAoIWJwcFRlcm1zVGFnKSB7CiAgICBwdXNoRXJyb3IoNDAwLCAib25faW5pdCBvcmRlci50YWdzIG1pc3NpbmcgYnBwX3Rlcm1zIHRhZyAoZm4uMjE5OiBwcm92aWRlcl90YXhfbnVtYmVyIHJlcXVpcmVkIGZvciBJU04vTVNOKSIpOwogIH0gZWxzZSB7CiAgICBjb25zdCBsaXN0ID0gQXJyYXkuaXNBcnJheShicHBUZXJtc1RhZy5saXN0KSA/IGJwcFRlcm1zVGFnLmxpc3QgOiBbXTsKICAgIGNvbnN0IHRheE51bWJlckVudHJ5ID0gbGlzdC5maW5kKGwgPT4gbD8uY29kZSA9PT0gInByb3ZpZGVyX3RheF9udW1iZXIiKTsKICAgIGlmICghdGF4TnVtYmVyRW50cnkpIHsKICAgICAgcHVzaEVycm9yKDQwMCwgIm9uX2luaXQgYnBwX3Rlcm1zIHRhZyBtaXNzaW5nIHByb3ZpZGVyX3RheF9udW1iZXIgZW50cnkgKGZuLjIxOTogcHJvdmlkZXIgUEFOIHJlcXVpcmVkOyBvbmx5IHRheF9udW1iZXIgYWxvbmUgaXMgaW5zdWZmaWNpZW50IGZvciBJU04vTVNOIGRldGVybWluYXRpb24pIik7CiAgICB9IGVsc2UgaWYgKCF0YXhOdW1iZXJFbnRyeS52YWx1ZSB8fCBTdHJpbmcodGF4TnVtYmVyRW50cnkudmFsdWUpLnRyaW0oKSA9PT0gIiIpIHsKICAgICAgcHVzaEVycm9yKDQwMCwgIm9uX2luaXQgYnBwX3Rlcm1zLnByb3ZpZGVyX3RheF9udW1iZXIgdmFsdWUgaXMgZW1wdHkg4oCUIGZuLjIxOSByZXF1aXJlcyBhIG5vbi1lbXB0eSBwcm92aWRlciBQQU4iKTsKICAgIH0KICB9CgogIC8vIGNyZWRpdCB0YWcgbXVzdCBiZSBwcmVzZW50IGluIG9yZGVyLnRhZ3MKICBjb25zdCBjcmVkaXRUYWcgPSB0YWdzLmZpbmQodCA9PiB0Py5jb2RlID09PSAiY3JlZGl0Iik7CiAgaWYgKCFjcmVkaXRUYWcpIHsKICAgIHB1c2hFcnJvcig0MDAsICJvbl9pbml0IG9yZGVyLnRhZ3MgbWlzc2luZyBjcmVkaXQgdGFnIChyZXF1aXJlZDogY3JlZGl0X2xpbWl0IGFuZCB2YWxpZF90aWxsKSIpOwogIH0KCiAgcmV0dXJuIHsKICAgIHZhbGlkOiBlcnJvcnMubGVuZ3RoID09PSAwLAogICAgY29kZTogZXJyb3JzLmxlbmd0aCA9PT0gMCA/IDIwMCA6IDQwMCwKICAgIGRlc2NyaXB0aW9uOiBlcnJvcnMubGVuZ3RoID09PSAwID8gIlZhbGlkIHJlcXVlc3QiIDogSlNPTi5zdHJpbmdpZnkoZXJyb3JzKSwKICB9Owp9
+      validate: ZnVuY3Rpb24gdmFsaWRhdGUodGFyZ2V0UGF5bG9hZCwgc2Vzc2lvbkRhdGEpIHsKICBjb25zdCBlcnJvcnMgPSBbXTsKICBjb25zdCBwdXNoRXJyb3IgPSAoY29kZSwgZGVzY3JpcHRpb24pID0+IHsgZXJyb3JzLnB1c2goeyBjb2RlLCBkZXNjcmlwdGlvbiB9KTsgfTsKCiAgY29uc3Qgb3JkZXIgPSB0YXJnZXRQYXlsb2FkPy5tZXNzYWdlPy5vcmRlcjsKCiAgLy8gZnVsZmlsbG1lbnRzWypdLmN1c3RvbWVyIG11c3QgYmUgcHJlc2VudCAoYnV5ZXIgY3VzdG9tZXIgb2JqZWN0KQogIGNvbnN0IGZ1bGZpbGxtZW50cyA9IEFycmF5LmlzQXJyYXkob3JkZXI/LmZ1bGZpbGxtZW50cykgPyBvcmRlci5mdWxmaWxsbWVudHMgOiBbXTsKICBmb3IgKGxldCBpID0gMDsgaSA8IGZ1bGZpbGxtZW50cy5sZW5ndGg7IGkrKykgewogICAgaWYgKCFmdWxmaWxsbWVudHNbaV0/LmN1c3RvbWVyKSB7CiAgICAgIHB1c2hFcnJvcig0MDAsIGBvbl9pbml0IGZ1bGZpbGxtZW50c1ske2l9XSBtaXNzaW5nIGN1c3RvbWVyIG9iamVjdGApOwogICAgfQogIH0KCiAgY29uc3QgdGFncyA9IEFycmF5LmlzQXJyYXkob3JkZXI/LnRhZ3MpID8gb3JkZXIudGFncyA6IFtdOwoKICAvLyBmbi4yMTk6IGJwcF90ZXJtcyB0YWcgbXVzdCBjYXJyeSBhIG5vbi1lbXB0eSBwcm92aWRlcl90YXhfbnVtYmVyIChwcm92aWRlciBQQU4pCiAgY29uc3QgYnBwVGVybXNUYWcgPSB0YWdzLmZpbmQodCA9PiB0Py5jb2RlID09PSAiYnBwX3Rlcm1zIik7CiAgaWYgKCFicHBUZXJtc1RhZykgewogICAgcHVzaEVycm9yKDQwMCwgIm9uX2luaXQgb3JkZXIudGFncyBtaXNzaW5nIGJwcF90ZXJtcyB0YWcgKGZuLjIxOTogcHJvdmlkZXJfdGF4X251bWJlciByZXF1aXJlZCBmb3IgSVNOL01TTikiKTsKICB9IGVsc2UgewogICAgY29uc3QgbGlzdCA9IEFycmF5LmlzQXJyYXkoYnBwVGVybXNUYWcubGlzdCkgPyBicHBUZXJtc1RhZy5saXN0IDogW107CiAgICBjb25zdCB0YXhOdW1iZXJFbnRyeSA9IGxpc3QuZmluZChsID0+IGw/LmNvZGUgPT09ICJwcm92aWRlcl90YXhfbnVtYmVyIik7CiAgICBpZiAoIXRheE51bWJlckVudHJ5KSB7CiAgICAgIHB1c2hFcnJvcig0MDAsICJvbl9pbml0IGJwcF90ZXJtcyB0YWcgbWlzc2luZyBwcm92aWRlcl90YXhfbnVtYmVyIGVudHJ5IChmbi4yMTk6IHByb3ZpZGVyIFBBTiByZXF1aXJlZDsgb25seSB0YXhfbnVtYmVyIGFsb25lIGlzIGluc3VmZmljaWVudCBmb3IgSVNOL01TTiBkZXRlcm1pbmF0aW9uKSIpOwogICAgfSBlbHNlIGlmICghdGF4TnVtYmVyRW50cnkudmFsdWUgfHwgU3RyaW5nKHRheE51bWJlckVudHJ5LnZhbHVlKS50cmltKCkgPT09ICIiKSB7CiAgICAgIHB1c2hFcnJvcig0MDAsICJvbl9pbml0IGJwcF90ZXJtcy5wcm92aWRlcl90YXhfbnVtYmVyIHZhbHVlIGlzIGVtcHR5IOKAlCBmbi4yMTkgcmVxdWlyZXMgYSBub24tZW1wdHkgcHJvdmlkZXIgUEFOIik7CiAgICB9CiAgfQoKICAvLyBjcmVkaXQgdGFnIG11c3QgYmUgcHJlc2VudCBpbiBvcmRlci50YWdzCiAgY29uc3QgY3JlZGl0VGFnID0gdGFncy5maW5kKHQgPT4gdD8uY29kZSA9PT0gImNyZWRpdCIpOwogIGlmICghY3JlZGl0VGFnKSB7CiAgICBwdXNoRXJyb3IoNDAwLCAib25faW5pdCBvcmRlci50YWdzIG1pc3NpbmcgY3JlZGl0IHRhZyAocmVxdWlyZWQ6IGNyZWRpdF9saW1pdCBhbmQgdmFsaWRfdGlsbCkiKTsKICB9CgogIHJldHVybiB7CiAgICB2YWxpZDogZXJyb3JzLmxlbmd0aCA9PT0gMCwKICAgIGNvZGU6IGVycm9ycy5sZW5ndGggPT09IDAgPyAyMDAgOiA0MDAsCiAgICBkZXNjcmlwdGlvbjogZXJyb3JzLmxlbmd0aCA9PT0gMCA/ICJWYWxpZCByZXF1ZXN0IiA6IEpTT04uc3RyaW5naWZ5KGVycm9ycyksCiAgfTsKfQ==
       requirements: ZnVuY3Rpb24gbWVldHNSZXF1aXJlbWVudHMoc2Vzc2lvbkRhdGEpIHsKICByZXR1cm4geyB2YWxpZDogdHJ1ZSwgY29kZTogMjAwLCBkZXNjcmlwdGlvbjogIlJlcXVpcmVtZW50cyBtZXQiIH07Cn0=
       defaultPayload:
         context:
@@ -723,8 +723,7 @@ steps:
               ttl: P1D
             payments:
               - type: ON-ORDER
-                collected_by: BPP
-                uri: https://snp.com/pg
+                collected_by: BAP
                 status: NOT-PAID
                 "@ondc/org/buyer_app_finder_fee_type": percent
                 "@ondc/org/buyer_app_finder_fee_amount": "3.54"
@@ -866,8 +865,7 @@ steps:
                 ttl: P1D
               payments:
                 - type: ON-ORDER
-                  collected_by: BPP
-                  uri: https://snp.com/pg
+                  collected_by: BAP
                   status: NOT-PAID
                   "@ondc/org/buyer_app_finder_fee_type": percent
                   "@ondc/org/buyer_app_finder_fee_amount": "3.54"
@@ -1011,15 +1009,13 @@ steps:
                     value: "0.00"
               ttl: P1D
             payments:
-              - uri: https://ondc.transaction.com/payment
-                tl_method: http/get
-                params:
+              - params:
                   currency: INR
                   transaction_id: "3937"
                   amount: "1150"
                 status: NOT-PAID
                 type: ON-ORDER
-                collected_by: BPP
+                collected_by: BAP
                 "@ondc/org/buyer_app_finder_fee_type": percent
                 "@ondc/org/buyer_app_finder_fee_amount": "3.54"
                 "@ondc/org/settlement_basis": delivery
@@ -1172,15 +1168,13 @@ steps:
                   value: "52.00"
                 ttl: P1D
               payments:
-                - uri: https://ondc.transaction.com/payment
-                  tl_method: http/get
-                  params:
+                - params:
                     currency: INR
                     transaction_id: "2199"
                     amount: "52.00"
                   status: PAID
                   type: ON-ORDER
-                  collected_by: BPP
+                  collected_by: BAP
                   "@ondc/org/buyer_app_finder_fee_type": percent
                   "@ondc/org/buyer_app_finder_fee_amount": "3.54"
                   "@ondc/org/settlement_basis": delivery
@@ -1351,7 +1345,7 @@ steps:
             payments:
               - status: NOT-PAID
                 type: ON-ORDER
-                collected_by: BPP
+                collected_by: BAP
                 params:
                   currency: INR
                   amount: "1150.00"
@@ -1523,15 +1517,13 @@ steps:
                   value: "52.00"
                 ttl: P1D
               payments:
-                - uri: https://ondc.transaction.com/payment
-                  tl_method: http/get
-                  params:
+                - params:
                     currency: INR
                     transaction_id: "2199"
                     amount: "52.00"
                   status: PAID
                   type: ON-ORDER
-                  collected_by: BPP
+                  collected_by: BAP
                   "@ondc/org/buyer_app_finder_fee_type": percent
                   "@ondc/org/buyer_app_finder_fee_amount": "3.54"
                   "@ondc/org/settlement_basis": delivery
@@ -1898,15 +1890,13 @@ steps:
                   value: "52.00"
                 ttl: P1D
               payments:
-                - uri: https://ondc.transaction.com/payment
-                  tl_method: http/get
-                  params:
+                - params:
                     currency: INR
                     transaction_id: "2199"
                     amount: "52.00"
                   status: PAID
                   type: ON-ORDER
-                  collected_by: BPP
+                  collected_by: BAP
                   "@ondc/org/buyer_app_finder_fee_type": percent
                   "@ondc/org/buyer_app_finder_fee_amount": "3.54"
                   "@ondc/org/settlement_basis": delivery
@@ -2260,15 +2250,13 @@ steps:
                   value: "52.00"
                 ttl: P1D
               payments:
-                - uri: https://ondc.transaction.com/payment
-                  tl_method: http/get
-                  params:
+                - params:
                     currency: INR
                     transaction_id: "2199"
                     amount: "52.00"
                   status: PAID
                   type: ON-ORDER
-                  collected_by: BPP
+                  collected_by: BAP
                   "@ondc/org/buyer_app_finder_fee_type": percent
                   "@ondc/org/buyer_app_finder_fee_amount": "3.54"
                   "@ondc/org/settlement_basis": delivery
@@ -2626,15 +2614,13 @@ steps:
                   value: "52.00"
                 ttl: P1D
               payments:
-                - uri: https://ondc.transaction.com/payment
-                  tl_method: http/get
-                  params:
+                - params:
                     currency: INR
                     transaction_id: "2199"
                     amount: "52.00"
                   status: PAID
                   type: ON-ORDER
-                  collected_by: BPP
+                  collected_by: BAP
                   "@ondc/org/buyer_app_finder_fee_type": percent
                   "@ondc/org/buyer_app_finder_fee_amount": "3.54"
                   "@ondc/org/settlement_basis": delivery
@@ -2990,15 +2976,13 @@ steps:
                   value: "52.00"
                 ttl: P1D
               payments:
-                - uri: https://ondc.transaction.com/payment
-                  tl_method: http/get
-                  params:
+                - params:
                     currency: INR
                     transaction_id: "2199"
                     amount: "52.00"
                   status: PAID
                   type: ON-ORDER
-                  collected_by: BPP
+                  collected_by: BAP
                   "@ondc/org/buyer_app_finder_fee_type": percent
                   "@ondc/org/buyer_app_finder_fee_amount": "3.54"
                   "@ondc/org/settlement_basis": delivery
@@ -3548,15 +3532,13 @@ steps:
                   value: "52.00"
                 ttl: P1D
               payments:
-                - uri: https://ondc.transaction.com/payment
-                  tl_method: http/get
-                  params:
+                - params:
                     currency: INR
                     transaction_id: "2199"
                     amount: "52.00"
                   status: PAID
                   type: ON-ORDER
-                  collected_by: BPP
+                  collected_by: BAP
                   "@ondc/org/buyer_app_finder_fee_type": percent
                   "@ondc/org/buyer_app_finder_fee_amount": "3.54"
                   "@ondc/org/settlement_basis": delivery
@@ -3919,15 +3901,13 @@ steps:
                   value: "52.00"
                 ttl: P1D
               payments:
-                - uri: https://ondc.transaction.com/payment
-                  tl_method: http/get
-                  params:
+                - params:
                     currency: INR
                     transaction_id: "2199"
                     amount: "52.00"
                   status: PAID
                   type: ON-ORDER
-                  collected_by: BPP
+                  collected_by: BAP
                   "@ondc/org/buyer_app_finder_fee_type": percent
                   "@ondc/org/buyer_app_finder_fee_amount": "3.54"
                   "@ondc/org/settlement_basis": delivery
